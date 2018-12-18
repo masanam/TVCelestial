@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ffw_description">"Sukti pirmyn"</string>
+    <string name="next_description">"Kitas takelis"</string>
+    <string name="pause_description">"Pristabdyti"</string>
+    <string name="play_description">"Leisti"</string>
+    <string name="prev_description">"Ankstesnis takelis"</string>
+    <string name="rew_description">"Sukti atgal"</string>
+    <string name="stop_description">"Stabdyti"</string>
+</resources>

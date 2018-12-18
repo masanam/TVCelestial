@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item>
+        <shape>
+            <!--
+            <stroke android:color="@color/ijo_pupus"
+                android:width="5dp">
+            </stroke>
+            -->
+            <stroke android:color="@color/merah2"
+                android:width="5dp">
+            </stroke>
+            <padding android:top="4dp"
+                android:right="4dp"
+                android:bottom="4dp"
+                android:left="4dp"></padding>
+            <corners android:radius="5dp"/>
+        </shape>
+    </item>
+    
+
+</layer-list>

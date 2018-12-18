@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ffw_description">"Keri edasi"</string>
+    <string name="next_description">"Järgmine lugu"</string>
+    <string name="pause_description">"Peata"</string>
+    <string name="play_description">"Esita"</string>
+    <string name="prev_description">"Eelmine lugu"</string>
+    <string name="rew_description">"Keri tagasi"</string>
+    <string name="stop_description">"Peata"</string>
+</resources>

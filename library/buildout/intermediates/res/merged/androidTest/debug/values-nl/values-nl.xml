@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ffw_description">"Vooruitspoelen"</string>
+    <string name="next_description">"Volgend nummer"</string>
+    <string name="pause_description">"Onderbreken"</string>
+    <string name="play_description">"Afspelen"</string>
+    <string name="prev_description">"Vorig nummer"</string>
+    <string name="rew_description">"Terugspoelen"</string>
+    <string name="stop_description">"Stoppen"</string>
+</resources>

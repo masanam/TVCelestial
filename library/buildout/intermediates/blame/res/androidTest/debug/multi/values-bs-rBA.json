@@ -1,0 +1,140 @@
+[
+    {
+        "outputFile": "F:\\ANDROID COBA 17\\ExoPlayer-release-v2\\library\\buildout\\intermediates\\res\\merged\\androidTest\\debug\\values-bs-rBA\\values-bs-rBA.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 52,
+                    "endOffset": 103
+                },
+                "from": {
+                    "file": "F:\\ANDROID COBA 17\\ExoPlayer-release-v2\\library\\buildout\\intermediates\\bundles\\debug\\res\\values-bs-rBA\\values-bs-rBA.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 52,
+                        "endOffset": 103
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 108,
+                    "endColumn": 62,
+                    "endOffset": 166
+                },
+                "from": {
+                    "file": "F:\\ANDROID COBA 17\\ExoPlayer-release-v2\\library\\buildout\\intermediates\\bundles\\debug\\res\\values-bs-rBA\\values-bs-rBA.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 108,
+                        "endColumn": 62,
+                        "endOffset": 166
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 171,
+                    "endColumn": 56,
+                    "endOffset": 223
+                },
+                "from": {
+                    "file": "F:\\ANDROID COBA 17\\ExoPlayer-release-v2\\library\\buildout\\intermediates\\bundles\\debug\\res\\values-bs-rBA\\values-bs-rBA.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 171,
+                        "endColumn": 56,
+                        "endOffset": 223
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 228,
+                    "endColumn": 59,
+                    "endOffset": 283
+                },
+                "from": {
+                    "file": "F:\\ANDROID COBA 17\\ExoPlayer-release-v2\\library\\buildout\\intermediates\\bundles\\debug\\res\\values-bs-rBA\\values-bs-rBA.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 228,
+                        "endColumn": 59,
+                        "endOffset": 283
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 288,
+                    "endColumn": 63,
+                    "endOffset": 347
+                },
+                "from": {
+                    "file": "F:\\ANDROID COBA 17\\ExoPlayer-release-v2\\library\\buildout\\intermediates\\bundles\\debug\\res\\values-bs-rBA\\values-bs-rBA.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 288,
+                        "endColumn": 63,
+                        "endOffset": 347
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 352,
+                    "endColumn": 54,
+                    "endOffset": 402
+                },
+                "from": {
+                    "file": "F:\\ANDROID COBA 17\\ExoPlayer-release-v2\\library\\buildout\\intermediates\\bundles\\debug\\res\\values-bs-rBA\\values-bs-rBA.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 352,
+                        "endColumn": 54,
+                        "endOffset": 402
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 8,
+                    "startColumn": 4,
+                    "startOffset": 407,
+                    "endColumn": 55,
+                    "endOffset": 458
+                },
+                "from": {
+                    "file": "F:\\ANDROID COBA 17\\ExoPlayer-release-v2\\library\\buildout\\intermediates\\bundles\\debug\\res\\values-bs-rBA\\values-bs-rBA.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 407,
+                        "endColumn": 55,
+                        "endOffset": 458
+                    }
+                }
+            }
+        ]
+    }
+]

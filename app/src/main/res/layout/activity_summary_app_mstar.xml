@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:focusable="true"
+	android:keepScreenOn="true">
+	<id.co.kynga.app.control.RecyclingImageView
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:src="@drawable/kyngmob_background"
+		android:scaleType="fitXY" />
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:orientation="vertical">
+		<android.support.v7.widget.Toolbar
+			android:layout_width="match_parent"
+			android:layout_height="@dimen/dimenTopBar"
+			android:gravity="center_vertical"
+			android:background="@android:color/transparent">
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:paddingRight="15dp"
+				android:gravity="center_vertical"
+				android:orientation="horizontal">
+				<ImageButton
+					android:id="@+id/btn_back"
+					android:layout_width="@dimen/dimenButtonTopBar"
+					android:layout_height="@dimen/dimenButtonTopBar"
+					android:background="@android:color/transparent"
+					android:src="@drawable/ic_back"
+					android:scaleType="fitXY" />
+				<TextView
+					android:id="@+id/lbl_title"
+					android:layout_width="0dp"
+					android:layout_height="match_parent"
+					android:layout_weight="1"
+					android:gravity="right|center_vertical"
+					style="@style/MStarTextView2" />
+			</LinearLayout>
+		</android.support.v7.widget.Toolbar>
+		<ScrollView
+			android:layout_width="match_parent"
+			android:layout_height="0dp"
+			android:layout_weight="1">
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:padding="5dp"
+				android:gravity="top|center"
+				android:orientation="vertical">
+				<id.co.kynga.app.control.RecyclingImageView
+					android:id="@+id/img_poster"
+					android:layout_width="@dimen/dimenPosterWidth"
+					android:layout_height="wrap_content"
+					android:adjustViewBounds="true"
+					android:scaleType="fitXY" />
+				<TextView
+					android:id="@+id/lbl_name"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:layout_marginTop="10dp"
+					android:layout_marginLeft="10dp"
+					android:layout_marginRight="10dp"
+					style="@style/MStarTextView2" />
+				<TextView
+					android:id="@+id/lbl_summary"
+					android:layout_width="match_parent"
+					android:layout_height="0dp"
+					android:layout_weight="1"
+					android:layout_marginTop="10dp"
+					android:layout_marginLeft="10dp"
+					android:layout_marginRight="10dp"
+					style="@style/MStarTextView1" />
+				<LinearLayout
+					android:id="@+id/lay_more"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:layout_marginTop="10dp"
+					android:orientation="vertical" />
+			</LinearLayout>
+		</ScrollView>
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:padding="5dp"
+			android:gravity="center"
+			android:orientation="vertical">
+			<ImageButton
+				android:id="@+id/btn_play"
+				android:layout_width="@dimen/dimenButtonWidth"
+				android:layout_height="@dimen/dimenButtonHeight"
+				android:layout_marginTop="10dp"
+				android:layout_marginBottom="20dp"
+				android:src="@drawable/bg_play"
+				android:background="@android:color/transparent"
+				android:scaleType="fitXY" />
+		</LinearLayout>
+	</LinearLayout>
+</RelativeLayout>

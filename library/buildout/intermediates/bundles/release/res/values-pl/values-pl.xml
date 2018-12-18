@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ffw_description">"Przewiń do przodu"</string>
+    <string name="next_description">"Następny utwór"</string>
+    <string name="pause_description">"Wstrzymaj"</string>
+    <string name="play_description">"Odtwórz"</string>
+    <string name="prev_description">"Poprzedni utwór"</string>
+    <string name="rew_description">"Przewiń do tyłu"</string>
+    <string name="stop_description">"Zatrzymaj"</string>
+</resources>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ffw_description">"İleri sar"</string>
+    <string name="next_description">"Sonraki parça"</string>
+    <string name="pause_description">"Duraklat"</string>
+    <string name="play_description">"Çal"</string>
+    <string name="prev_description">"Önceki parça"</string>
+    <string name="rew_description">"Geri sar"</string>
+    <string name="stop_description">"Durdur"</string>
+</resources>

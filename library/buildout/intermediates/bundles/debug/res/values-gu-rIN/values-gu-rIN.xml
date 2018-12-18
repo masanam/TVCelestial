@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ffw_description">"ઝડપી ફોરવર્ડ કરો"</string>
+    <string name="next_description">"આગલો ટ્રૅક"</string>
+    <string name="pause_description">"થોભો"</string>
+    <string name="play_description">"ચલાવો"</string>
+    <string name="prev_description">"પહેલાનો ટ્રૅક"</string>
+    <string name="rew_description">"રીવાઇન્ડ કરો"</string>
+    <string name="stop_description">"રોકો"</string>
+</resources>

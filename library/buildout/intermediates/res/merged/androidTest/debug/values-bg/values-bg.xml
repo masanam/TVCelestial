@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ffw_description">"Превъртане напред"</string>
+    <string name="next_description">"Следващ запис"</string>
+    <string name="pause_description">"Пауза"</string>
+    <string name="play_description">"Пускане"</string>
+    <string name="prev_description">"Предишен запис"</string>
+    <string name="rew_description">"Превъртане назад"</string>
+    <string name="stop_description">"Спиране"</string>
+</resources>

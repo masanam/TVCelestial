@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<id.co.kynga.app.widget.CheckableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:paddingBottom="10dp"
+    android:background="@drawable/bg_pref_menu_item"
+    android:paddingTop="10dp">
+
+    <ImageView
+        android:id="@+id/img_pref_menu"
+        android:layout_width="@dimen/icon_menu_size"
+        android:layout_height="@dimen/icon_menu_size"
+        android:contentDescription="@string/app_name"
+        android:scaleType="fitCenter"/>
+
+    <TextView
+        android:id="@+id/txt_pref_menu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:gravity="center"
+        android:textSize="@dimen/text_size_medium"/>
+
+</id.co.kynga.app.widget.CheckableLayout>

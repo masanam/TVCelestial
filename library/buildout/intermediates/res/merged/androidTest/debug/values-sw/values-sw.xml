@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ffw_description">"Peleka mbele kwa kasi"</string>
+    <string name="next_description">"Wimbo unaofuata"</string>
+    <string name="pause_description">"Sitisha"</string>
+    <string name="play_description">"Cheza"</string>
+    <string name="prev_description">"Wimbo uliotangulia"</string>
+    <string name="rew_description">"Rudisha nyuma"</string>
+    <string name="stop_description">"Simamisha"</string>
+</resources>

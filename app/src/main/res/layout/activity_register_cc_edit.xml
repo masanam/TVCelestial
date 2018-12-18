@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/frameLayoutRegister"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:background="@drawable/kyngmob_background"
+	android:focusable="true"
+	android:focusableInTouchMode="true">
+<LinearLayout
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:gravity="center|top"
+	android:orientation="vertical"
+	>
+
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="60dp"
+		android:gravity="center_vertical"
+		android:orientation="horizontal"
+		android:background="@color/transparan">
+		<ImageButton
+			android:layout_marginLeft="5dp"
+			android:id="@+id/btnBack"
+			android:layout_width="50dp"
+			android:layout_height="50dp"
+			android:background="@drawable/ic_back"
+			android:scaleType="fitXY"
+			android:layout_gravity="left|center_vertical"
+			/>
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:gravity="center_vertical"
+			android:orientation="horizontal"
+			android:layout_weight="1"/>
+		<ImageButton
+			android:id="@+id/btn_package"
+			android:layout_width="100dp"
+			android:layout_height="50dp"
+			android:background="@drawable/header_register_cc"
+			android:layout_gravity="right"
+			android:scaleType="fitXY"
+			android:layout_marginTop="10dp"
+			android:layout_marginBottom="10dp"
+			android:layout_marginRight="20dp"
+			/>
+	</LinearLayout>
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal"
+		android:layout_marginRight="10dp"
+		android:layout_marginLeft="10dp"
+		android:layout_marginTop="10dp"
+		android:gravity="right"
+		>
+		<ImageButton
+			android:id="@+id/btnEdit"
+			android:layout_width="@dimen/dimenButtonWidth"
+			android:layout_height="@dimen/dimenButtonHeight"
+			android:src="@drawable/logo_edit"
+			android:background="@android:color/transparent"
+			android:scaleType="fitXY"
+			android:layout_gravity="right|center_vertical"
+			/>
+	</LinearLayout>
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:orientation="vertical"
+		android:layout_marginRight="10dp"
+		android:layout_marginLeft="10dp"
+		android:layout_marginTop="10dp"
+		>
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal"
+		android:layout_weight="1"
+		android:padding="2dp"
+		android:layout_gravity="center">
+
+		<EditText
+			android:layout_width="match_parent"
+			android:layout_height="50dp"
+			android:hint=" Full name"
+			android:id="@+id/textFullname"
+			android:textColor="@color/md_grey_900"
+			android:textColorHint="@color/md_grey_400"
+			android:maxLength="30"
+			android:background="@drawable/my_border"
+			/>
+	</LinearLayout>
+
+
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:orientation="horizontal"
+			android:layout_weight="1"
+			android:padding="2dp">
+			<EditText
+				android:layout_width="match_parent"
+				android:layout_height="50dp"
+				android:hint=" Credit Card Number"
+				android:id="@+id/textCC"
+				android:textColor="@color/md_grey_900"
+				android:textColorHint="@color/md_grey_400"
+				android:maxLength="19"
+				android:background="@drawable/my_border"
+				/>
+		</LinearLayout>
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:orientation="horizontal"
+			android:layout_weight="1"
+			android:padding="2dp">
+
+			<EditText
+				android:layout_width="match_parent"
+				android:layout_height="50dp"
+				android:hint=" MM"
+				android:id="@+id/textMM"
+				android:textColor="@color/md_grey_900"
+				android:textColorHint="@color/md_grey_400"
+				android:maxLength="2"
+				android:background="@drawable/my_border"
+				android:layout_weight="1"
+				android:gravity="center"
+				android:inputType="numberDecimal"
+				/>
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:gravity="center_vertical"
+				android:orientation="horizontal"
+				android:layout_weight="1.3"/>
+			<EditText
+				android:layout_width="match_parent"
+				android:layout_height="50dp"
+				android:hint=" YY"
+				android:id="@+id/textYY"
+				android:textColor="@color/md_grey_900"
+				android:textColorHint="@color/md_grey_400"
+				android:maxLength="4"
+				android:background="@drawable/my_border"
+				android:layout_weight="1"
+				android:gravity="center"
+				android:inputType="numberDecimal"
+				/>
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:gravity="center_vertical"
+				android:orientation="horizontal"
+				android:layout_weight="1"/>
+			<EditText
+				android:layout_width="match_parent"
+				android:layout_height="50dp"
+				android:hint="CVV"
+				android:id="@+id/textCVV"
+				android:textColor="@color/md_grey_900"
+				android:textColorHint="@color/md_grey_400"
+				android:maxLength="3"
+				android:background="@drawable/my_border"
+				android:layout_weight="1"
+				android:gravity="center"
+				android:inputType="numberPassword"
+				/>
+		</LinearLayout>
+	</LinearLayout>
+
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:orientation="horizontal"
+		android:layout_weight="1.1"
+		android:gravity="center|top"
+		>
+			<ImageButton
+				android:id="@+id/btnAutoRenew"
+				android:layout_width="@dimen/dimenButtonWidth"
+				android:layout_height="@dimen/dimenButtonHeight"
+				android:layout_marginTop="40dp"
+				android:src="@drawable/btn_auto_renew"
+				android:background="@android:color/transparent"
+				android:scaleType="fitXY" />
+
+	</LinearLayout>
+
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:orientation="vertical"
+		android:layout_weight="1.1"
+		android:gravity="center|bottom"
+		android:layout_marginBottom="5dp"
+		>
+		<ImageButton
+			android:id="@+id/btnPoweredBy"
+			android:layout_width="150dp"
+			android:layout_height="50dp"
+			android:layout_marginTop="40dp"
+			android:src="@drawable/logo_rocketpay"
+			android:background="@android:color/transparent"
+			android:scaleType="fitXY" />
+	</LinearLayout>
+
+</LinearLayout>
+
+</FrameLayout>

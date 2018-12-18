@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:keepScreenOn="true">
+
+    <LinearLayout android:id="@+id/logo"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@drawable/kyngmob_background"
+        android:gravity="center"
+        android:layout_gravity="center">
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/ic_logo"
+            android:layout_weight="1"/>
+
+        <TextView android:id="@+id/press_back"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingLeft="4dp"
+            android:paddingRight="4dp"
+            android:textSize="20sp"
+            android:text="Please Press Back"
+            android:gravity="top|center_horizontal"
+            android:layout_weight="3"
+            android:textColor="@color/white"
+            />
+    </LinearLayout>
+
+    <com.google.android.exoplayer.AspectRatioFrameLayout
+        android:id="@+id/videoFrame"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center" >
+        <SurfaceView
+            android:id="@+id/surfaceView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone" />
+        <id.co.kynga.app.widget.NoelPlayer
+            android:id="@+id/noelPlayer1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:clickable="true"
+            android:focusable="true" />
+    </com.google.android.exoplayer.AspectRatioFrameLayout>
+    <TextView
+        android:id="@+id/textDebug"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center" />
+    <ProgressBar
+        android:id="@+id/progressBar1"
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center" />
+    <ImageButton
+        android:id="@+id/image_trailer"
+        android:layout_width="@dimen/nomad_button_play_width"
+        android:layout_height="@dimen/nomad_button_play_height"
+        android:layout_gravity="center"
+        android:background="@drawable/border_menu_focus"
+        android:clickable="true"
+        android:src="@drawable/button_trailer_off"
+        android:scaleType="fitXY"
+        android:visibility="gone"/>
+</FrameLayout>

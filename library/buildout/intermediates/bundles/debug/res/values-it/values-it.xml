@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ffw_description">"Avanti veloce"</string>
+    <string name="next_description">"Traccia successiva"</string>
+    <string name="pause_description">"Metti in pausa"</string>
+    <string name="play_description">"Riproduci"</string>
+    <string name="prev_description">"Traccia precedente"</string>
+    <string name="rew_description">"Riavvolgi"</string>
+    <string name="stop_description">"Interrompi"</string>
+</resources>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ffw_description">"Ubrzaj"</string>
+    <string name="next_description">"Sljedeća numera"</string>
+    <string name="pause_description">"Pauziraj"</string>
+    <string name="play_description">"Reproduciraj"</string>
+    <string name="prev_description">"Prethodna numera"</string>
+    <string name="rew_description">"Premotaj"</string>
+    <string name="stop_description">"Zaustavi"</string>
+</resources>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ffw_description">"Алдыга түрүү"</string>
+    <string name="next_description">"Кийинки трек"</string>
+    <string name="pause_description">"Тындыруу"</string>
+    <string name="play_description">"Ойнотуу"</string>
+    <string name="prev_description">"Мурунку трек"</string>
+    <string name="rew_description">"Артка түрүү"</string>
+    <string name="stop_description">"Токтотуу"</string>
+</resources>

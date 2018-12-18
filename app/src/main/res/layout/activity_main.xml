@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@drawable/kyngmob_background"
+              android:orientation="vertical">
+	<ViewFlipper
+		android:id="@+id/viewFlipper1"
+		android:layout_width="match_parent"
+		android:layout_height="0dp"
+		android:layout_weight="1" >
+		<ImageView
+			android:id="@+id/imageView1"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:src="@drawable/bg_default_banner3" />
+	</ViewFlipper>
+	<View
+		android:id="@+id/view1"
+		android:layout_width="match_parent"
+		android:layout_height="1dp"
+		android:background="@color/white" />
+	<RelativeLayout
+		android:layout_width="match_parent"
+		android:layout_height="@dimen/home_menu_grid_layout_height" >
+		<GridView
+			android:id="@+id/gridMenu"
+			android:layout_width="match_parent"
+			android:layout_height="@dimen/home_menu_grid_layout_height"
+			android:layout_marginBottom="5dp"
+			android:layout_marginTop="5dp"
+			android:focusable="true"
+			android:focusableInTouchMode="true"
+			android:gravity="center"
+			android:horizontalSpacing="10dp"
+			android:listSelector="@drawable/menu_grid_seector"
+			android:numColumns="6"
+			android:overScrollMode="ifContentScrolls"
+			android:paddingLeft="@dimen/activity_margin_horizontal"
+			android:paddingRight="@dimen/activity_margin_horizontal"
+			android:scrollbars="none"
+			android:padding="10dp"
+			android:clipToPadding="false">
+		</GridView>
+	</RelativeLayout>
+</LinearLayout>

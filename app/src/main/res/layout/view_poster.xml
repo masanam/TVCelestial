@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:minHeight="@dimen/dimenPosterHeight"
+	android:orientation="vertical">
+	<id.co.kynga.app.control.PosterLayout
+		android:id="@+id/lay_poster"
+		android:layout_width="match_parent"
+		android:layout_height="0dp"
+		android:layout_weight="1">
+		<id.co.kynga.app.control.RecyclingImageView
+			android:id="@+id/img_poster"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:scaleType="fitXY" />
+		<Button
+			android:id="@+id/btn_action"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:background="@android:color/transparent" />
+	</id.co.kynga.app.control.PosterLayout>
+	<TextView
+		android:id="@+id/lbl_title"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:paddingTop="5dp"
+		android:paddingBottom="5dp"
+		android:maxLines="2"
+		/>
+</LinearLayout>

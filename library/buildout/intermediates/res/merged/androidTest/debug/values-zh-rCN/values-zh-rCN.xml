@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ffw_description">"快进"</string>
+    <string name="next_description">"下一曲"</string>
+    <string name="pause_description">"暂停"</string>
+    <string name="play_description">"播放"</string>
+    <string name="prev_description">"上一曲"</string>
+    <string name="rew_description">"快退"</string>
+    <string name="stop_description">"停止"</string>
+</resources>

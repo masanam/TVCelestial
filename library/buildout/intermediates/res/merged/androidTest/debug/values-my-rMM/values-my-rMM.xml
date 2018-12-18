@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ffw_description">"ရှေ့သို့ သွားရန်"</string>
+    <string name="next_description">"နောက် တစ်ပုဒ်"</string>
+    <string name="pause_description">"ခဏရပ်ရန်"</string>
+    <string name="play_description">"ဖွင့်ရန်"</string>
+    <string name="prev_description">"ယခင် တစ်ပုဒ်"</string>
+    <string name="rew_description">"ပြန်ရစ်ရန်"</string>
+    <string name="stop_description">"ရပ်ရန်"</string>
+</resources>

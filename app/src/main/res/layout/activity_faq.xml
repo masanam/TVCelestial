@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent">
+	<id.co.kynga.app.control.RecyclingImageView
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:src="@drawable/kyngmob_background"
+		android:scaleType="fitXY" />
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:gravity="center"
+		android:orientation="vertical">
+		<android.support.v7.widget.Toolbar
+			android:layout_width="match_parent"
+			android:layout_height="@dimen/dimenTopBar"
+			android:gravity="center_vertical"
+			android:background="@android:color/transparent">
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:paddingRight="15dp"
+				android:gravity="center_vertical"
+				android:orientation="horizontal">
+				<ImageButton
+					android:id="@+id/btn_back"
+					android:layout_width="@dimen/dimenButtonTopBar"
+					android:layout_height="@dimen/dimenButtonTopBar"
+					android:background="@android:color/transparent"
+					android:src="@drawable/ic_back"
+					android:scaleType="fitXY" />
+
+			</LinearLayout>
+		</android.support.v7.widget.Toolbar>
+		<id.co.kynga.app.control.RecyclingImageView
+			android:layout_width="@dimen/dimenLogo"
+			android:layout_height="@dimen/dimenLogoHeight"
+			android:layout_marginBottom="10dp"
+			android:src="@drawable/ic_logo"
+			android:scaleType="fitXY" />
+		<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="@string/title_faq"
+			style="@style/MStarTextView2" />
+		<WebView
+			android:id="@+id/web_view"
+			android:padding="30dp"
+			android:layout_width="match_parent"
+			android:layout_height="0dp"
+			android:layout_weight="1"
+			android:layout_marginTop="10dp"
+			android:layout_marginLeft="20dp"
+			android:layout_marginRight="20dp"
+			android:layout_marginBottom="20dp"
+			android:background="@android:color/transparent"
+			/>
+	</LinearLayout>
+</RelativeLayout>

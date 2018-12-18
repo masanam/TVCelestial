@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent">
+	<id.co.kynga.app.control.RecyclingImageView
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:src="@drawable/kyngmob_background"
+		android:scaleType="fitXY" />
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:orientation="vertical">
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:padding="30dp"
+			android:gravity="center"
+			android:orientation="vertical">
+			<id.co.kynga.app.control.RecyclingImageView
+				android:layout_width="@dimen/dimenLogo"
+				android:layout_height="@dimen/dimenLogoHeight"
+				android:src="@drawable/ic_logo"
+				android:scaleType="fitXY" />
+			<TextView
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="10dp"
+				android:gravity="center"
+				android:text="@string/message_loading"
+				style="@style/MStarTextView2" />
+		</LinearLayout>
+	</LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ffw_description">"Premotaj unapred"</string>
+    <string name="next_description">"Sledeća pesma"</string>
+    <string name="pause_description">"Pauza"</string>
+    <string name="play_description">"Pusti"</string>
+    <string name="prev_description">"Prethodna pesma"</string>
+    <string name="rew_description">"Premotaj unazad"</string>
+    <string name="stop_description">"Zaustavi"</string>
+</resources>

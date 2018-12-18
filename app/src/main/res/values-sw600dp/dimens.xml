@@ -1,0 +1,91 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_margin_horizontal">14dp</dimen>
+    <dimen name="activity_margin_vertical">14dp</dimen>
+    <dimen name="tablet_list_width">300dp</dimen>
+    <dimen name="phone_list_height">200dp</dimen>
+    
+    <dimen name="toolbar_height">60dp</dimen>
+    
+    
+    <!--  TEXT SIZE  -->
+    <dimen name="text_size_small">14sp</dimen>
+    <dimen name="text_size">14sp</dimen>
+    <dimen name="text_size_medium">20sp</dimen>
+    <dimen name="text_size_large">24sp</dimen>
+    
+    
+    <!-- YOUTUBE  -->
+    <dimen name="grid_youtube_item_width">210dp</dimen>
+    <dimen name="grid_youtube_item_height">140dp</dimen>
+    <dimen name="grid_youtube_horizontal_margin">10dp</dimen>
+    <dimen name="grid_youtube_vertical_margin">10dp</dimen>
+    <dimen name="youtube_button_height">60dp</dimen>
+    <!-- HOME MENU  --> 
+    <dimen name="home_menu_grid_layout_height">210dp</dimen>
+    <dimen name="grid_menu_horizontal_margin">12dp</dimen>
+    <dimen name="grid_menu_vertical_margin">12dp</dimen>
+	<dimen name="buble_menu_item_width">156dp</dimen>
+	<dimen name="buble_menu_item_height">114dp</dimen>
+	<dimen name="menu_item_width">180dp</dimen>
+    <dimen name="menu_item_hight">120dp</dimen>
+    
+    <!-- TV LAYOUT -->
+    
+    <dimen name="channel_list_width">320dp</dimen>
+    <dimen name="ottix_player_banner_width">300dp</dimen>
+    <dimen name="ottix_player_banner_height">200dp</dimen>
+    
+    <!-- RADIO LAYOUT -->
+    <dimen name="visualizer_height">80dp</dimen>
+    <dimen name="radio_ottix_logo_width_height">80dp</dimen>
+    <dimen name="radio_list_icon">40dp</dimen>
+    
+    <!-- PREFERENCE -->
+    <dimen name="ottix_logo_glow_height">140dp</dimen>
+    <dimen name="ottix_logo_glow_width">320dp</dimen>
+	<dimen name="preference_button_menu">60dp</dimen>
+	<dimen name="icon_preference_menu_button">40dp</dimen>
+	<dimen name="button_purchase_width">132dp</dimen>
+	
+	<!-- NOMAD -->
+	<dimen name="pager_height">420dp</dimen>
+	<dimen name="nomad_grid_item_width">136dp</dimen>
+	<dimen name="nomad_grid_item_height">204dp</dimen>
+	<dimen name="gridlayout_item_width_large">272dp</dimen>
+    <dimen name="gridlayout_item_height_large">408dp</dimen>
+    <dimen name="nomad_arrow_width_height">72dp</dimen>
+    <dimen name="logo_samping_width">160dp</dimen>
+    <dimen name="logo_samping_height">60dp</dimen>
+    <dimen name="nomad_grid_item_padding">8dp</dimen>
+    <dimen name="nomad_button_play_width">160dp</dimen>
+    <dimen name="nomad_button_play_height">60dp</dimen>
+	
+    <!-- LOGIN -->
+    <dimen name="edit_text_height">60dp</dimen>
+    <dimen name="login_logo_width">200dp</dimen>
+    <dimen name="login_logo_height">100dp</dimen>
+     <!-- PREMIUM PREVIEW -->
+    <dimen name="head_title_margin">40dp</dimen>
+    <dimen name="tv_icon_height">80dp</dimen>
+    <dimen name="login_player_width">400dp</dimen>
+    <dimen name="login_player_height">225dp</dimen>
+     <dimen name="purchase_item_width">108dp</dimen>
+    <dimen name="purchase_item_height">79dp</dimen>
+    
+    <dimen name="list_youtube_channel_margin">24dp</dimen>
+
+    <!--Kynga App Mobile-->
+    <dimen name="icon_menu_size">48dp</dimen>
+
+    <!--Preferences-->
+    <dimen name="pref_bubble_height">120dp</dimen>
+    <dimen name="pref_bubble_screen">600dp</dimen>
+    <dimen name="pref_pin_button_width">125dp</dimen>
+    <dimen name="pref_pin_button_height">72dp</dimen>
+    <dimen name="pref_button_width">154dp</dimen>
+    <dimen name="pref_button_height">72dp</dimen>
+    <dimen name="pref_parental_text">30sp</dimen>
+	
+</resources>

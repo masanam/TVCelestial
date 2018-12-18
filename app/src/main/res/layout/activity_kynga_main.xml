@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_kynga_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_kynga_main"
+    android:orientation="vertical"
+    tools:context="id.co.kynga.app.ui.activity.KyngaMainActivity">
+
+    <ViewFlipper
+        android:id="@+id/vf_banner"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="7">
+
+        <ImageView
+            android:id="@+id/img_banner"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:contentDescription="@string/app_name"
+            android:scaleType="fitXY"
+            android:src="@drawable/bg_default_banner3" />
+
+    </ViewFlipper>
+
+    <id.co.kynga.app.ui.view.AutoFitRecyclerView
+        android:id="@+id/list_bubble_category"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+        android:background="@android:color/transparent"
+        android:clipToPadding="false"
+        android:columnWidth="@dimen/buble_column_width" />
+
+</LinearLayout>

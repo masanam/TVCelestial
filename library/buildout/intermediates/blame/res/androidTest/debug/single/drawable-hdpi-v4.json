@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "F:\\ANDROID COBA 17\\ExoPlayer-release-v2\\library\\buildout\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ic_media_rew.png",
+        "source": "F:\\ANDROID COBA 17\\ExoPlayer-release-v2\\library\\buildout\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ic_media_rew.png"
+    },
+    {
+        "merged": "F:\\ANDROID COBA 17\\ExoPlayer-release-v2\\library\\buildout\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ic_media_pause.png",
+        "source": "F:\\ANDROID COBA 17\\ExoPlayer-release-v2\\library\\buildout\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ic_media_pause.png"
+    },
+    {
+        "merged": "F:\\ANDROID COBA 17\\ExoPlayer-release-v2\\library\\buildout\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ic_media_play.png",
+        "source": "F:\\ANDROID COBA 17\\ExoPlayer-release-v2\\library\\buildout\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ic_media_play.png"
+    },
+    {
+        "merged": "F:\\ANDROID COBA 17\\ExoPlayer-release-v2\\library\\buildout\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ic_media_next.png",
+        "source": "F:\\ANDROID COBA 17\\ExoPlayer-release-v2\\library\\buildout\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ic_media_next.png"
+    },
+    {
+        "merged": "F:\\ANDROID COBA 17\\ExoPlayer-release-v2\\library\\buildout\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ic_media_ff.png",
+        "source": "F:\\ANDROID COBA 17\\ExoPlayer-release-v2\\library\\buildout\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ic_media_ff.png"
+    },
+    {
+        "merged": "F:\\ANDROID COBA 17\\ExoPlayer-release-v2\\library\\buildout\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ic_media_previous.png",
+        "source": "F:\\ANDROID COBA 17\\ExoPlayer-release-v2\\library\\buildout\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ic_media_previous.png"
+    }
+]

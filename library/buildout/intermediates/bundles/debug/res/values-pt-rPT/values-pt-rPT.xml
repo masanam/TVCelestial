@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ffw_description">"Avançar"</string>
+    <string name="next_description">"Faixa seguinte"</string>
+    <string name="pause_description">"Interromper"</string>
+    <string name="play_description">"Reproduzir"</string>
+    <string name="prev_description">"Faixa anterior"</string>
+    <string name="rew_description">"Rebobinar"</string>
+    <string name="stop_description">"Parar"</string>
+</resources>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ffw_description">"फ़ास्ट फ़ॉरवर्ड"</string>
+    <string name="next_description">"अगला ट्रैक"</string>
+    <string name="pause_description">"रोकें"</string>
+    <string name="play_description">"चलाएं"</string>
+    <string name="prev_description">"पिछला ट्रैक"</string>
+    <string name="rew_description">"रिवाइंड करें"</string>
+    <string name="stop_description">"बंद करें"</string>
+</resources>

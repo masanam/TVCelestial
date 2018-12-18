@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:focusable="true"
+	android:keepScreenOn="true">
+	<id.co.kynga.app.control.RecyclingImageView
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:src="@drawable/kyngmob_background"
+		android:scaleType="fitXY" />
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:orientation="vertical"
+		android:visibility="gone">
+		<android.support.v7.widget.Toolbar
+			android:layout_width="match_parent"
+			android:layout_height="@dimen/dimenTopBar"
+			android:gravity="center_vertical"
+			android:background="@android:color/transparent">
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:paddingRight="15dp"
+				android:gravity="center_vertical"
+				android:orientation="horizontal">
+				<ImageButton
+					android:id="@+id/btn_back"
+					android:layout_width="@dimen/dimenButtonTopBar"
+					android:layout_height="@dimen/dimenButtonTopBar"
+					android:background="@android:color/transparent"
+					android:src="@drawable/ic_back"
+					android:scaleType="fitXY" />
+				<TextView
+					android:layout_width="0dp"
+					android:layout_height="match_parent"
+					android:layout_weight="1"
+					android:gravity="right"
+					android:text="@string/title_topup"
+					style="@style/MStarTextView2" />
+			</LinearLayout>
+		</android.support.v7.widget.Toolbar>
+		<TextView
+			android:id="@+id/lbl_credit"
+			android:layout_width="match_parent"
+			android:layout_height="20dp"
+			android:gravity="center"
+			style="@style/MStarTextView3" />
+		<android.support.v4.widget.SwipeRefreshLayout
+			android:id="@+id/lay_refresh"
+			android:layout_width="match_parent"
+			android:layout_height="0dp"
+			android:layout_weight="1"
+			android:layout_marginTop="5dp">
+			<GridView
+				android:id="@+id/gvw_main"
+				android:layout_width="match_parent"
+				android:layout_height="match_parent"
+				android:verticalSpacing="1dp"
+				android:horizontalSpacing="2dp"
+				android:numColumns="4"
+				android:gravity="center"
+				android:stretchMode="columnWidth"
+				android:scrollbars="none" />
+
+		</android.support.v4.widget.SwipeRefreshLayout>
+		<ScrollView
+			android:id="@+id/SCROLLER_ID"
+			android:layout_width="fill_parent"
+			android:layout_height="200dp"
+			android:scrollbars="vertical"
+			android:fillViewport="true">
+			<TextView
+				android:id="@+id/textRespon"
+				android:layout_width="match_parent"
+				android:layout_height="match_parent"
+				android:text="respon"
+				android:scrollbars="vertical"
+				/>
+		</ScrollView>
+	</LinearLayout>
+
+</RelativeLayout>

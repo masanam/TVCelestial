@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent">
+	<id.co.kynga.app.control.RecyclingImageView
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:src="@drawable/kyngmob_background"
+		android:scaleType="fitXY" />
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:orientation="vertical">
+		<android.support.v7.widget.Toolbar
+			android:layout_width="match_parent"
+			android:layout_height="@dimen/dimenTopBar"
+			android:gravity="center_vertical"
+			android:background="@android:color/transparent">
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:paddingRight="15dp"
+				android:gravity="center_vertical"
+				android:orientation="horizontal">
+				<ImageButton
+					android:id="@+id/btn_back"
+					android:layout_width="@dimen/dimenButtonTopBar"
+					android:layout_height="@dimen/dimenButtonTopBar"
+					android:background="@android:color/transparent"
+					android:src="@drawable/ic_back"
+					android:scaleType="fitXY" />
+				<TextView
+					android:id="@+id/lbl_title"
+					android:layout_width="0dp"
+					android:layout_height="wrap_content"
+					android:layout_weight="1"
+					android:gravity="center"
+					style="@style/MStarTextView2" />
+				<ProgressBar
+					android:id="@+id/pgb_loading"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginRight="8dp"
+					style="@android:style/Widget.ProgressBar.Small.Inverse" />
+			</LinearLayout>
+		</android.support.v7.widget.Toolbar>
+		<WebView
+			android:id="@+id/web_view"
+			android:layout_width="match_parent"
+			android:layout_height="0dp"
+			android:layout_weight="1" />
+		<ScrollView
+			android:id="@+id/SCROLLER_ID"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:scrollbars="vertical"
+			android:fillViewport="true"
+			android:visibility="gone"
+			>
+			<TextView
+				android:id="@+id/textRespon"
+				android:layout_width="match_parent"
+				android:layout_height="match_parent"
+				android:text="respon"
+				android:scrollbars="vertical"
+				/>
+		</ScrollView>
+	</LinearLayout>
+</RelativeLayout>

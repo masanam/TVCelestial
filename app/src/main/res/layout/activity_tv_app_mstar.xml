@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:focusable="true"
+	android:keepScreenOn="true">
+	<id.co.kynga.app.control.RecyclingImageView
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:src="@drawable/kyngmob_background"
+		android:scaleType="fitXY" />
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:orientation="vertical">
+		<android.support.v7.widget.Toolbar
+			android:layout_width="match_parent"
+			android:layout_height="@dimen/dimenTopBar"
+			android:gravity="center_vertical"
+			android:background="@android:color/transparent">
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:paddingRight="15dp"
+				android:gravity="center_vertical"
+				android:orientation="horizontal">
+				<ImageButton
+					android:id="@+id/btn_back"
+					android:layout_width="@dimen/dimenButtonTopBar"
+					android:layout_height="@dimen/dimenButtonTopBar"
+					android:background="@android:color/transparent"
+					android:src="@drawable/ic_back"
+					android:scaleType="fitXY" />
+				<TextView
+					android:id="@+id/lbl_title"
+					android:layout_width="0dp"
+					android:layout_height="match_parent"
+					android:layout_weight="1"
+					android:gravity="center"
+					android:textStyle="italic"
+					style="@style/MStarTextView2" />
+			</LinearLayout>
+		</android.support.v7.widget.Toolbar>
+		<id.co.kynga.app.control.PlayerLayout
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:background="@android:color/black">
+			<com.google.android.exoplayer.AspectRatioFrameLayout
+				android:id="@+id/lay_video"
+				android:layout_width="match_parent"
+				android:layout_height="match_parent"
+				android:layout_gravity="center|center">
+				<SurfaceView
+					android:id="@+id/vw_surface"
+					android:layout_width="match_parent"
+					android:layout_height="match_parent" />
+				<View
+					android:id="@+id/vw_shutter"
+					android:layout_width="match_parent"
+					android:layout_height="match_parent"
+					android:background="@android:color/black"
+					android:visibility="gone"/>
+				<TextView
+					android:id="@+id/lbl_message"
+					android:layout_width="match_parent"
+					android:layout_height="match_parent"
+					android:gravity="center"
+					style="@style/MStarTextView1" />
+				<ImageButton
+					android:id="@+id/btn_landscape"
+					android:layout_width="@dimen/dimenButtonTopBar"
+					android:layout_height="@dimen/dimenButtonTopBar"
+					android:background="@android:color/transparent"
+					android:src="@drawable/button_notfullscreen"
+					android:scaleType="fitXY"
+					android:layout_gravity="bottom|right"
+					android:onClick="landscape"
+					/>
+			</com.google.android.exoplayer.AspectRatioFrameLayout>
+		</id.co.kynga.app.control.PlayerLayout>
+		<GridView
+			android:id="@+id/gvw_main"
+			android:layout_width="match_parent"
+			android:layout_height="0dp"
+			android:layout_weight="1"
+			android:verticalSpacing="2dp"
+			android:horizontalSpacing="20dp"
+			android:numColumns="2"
+			android:gravity="center"
+			android:stretchMode="columnWidth"
+			android:scrollbars="none"/>
+	</LinearLayout>
+</RelativeLayout>

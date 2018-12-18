@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ffw_description">"फास्ट फर्वार्ड"</string>
+    <string name="next_description">"अर्को ट्रयाक"</string>
+    <string name="pause_description">"रोक्नुहोस्"</string>
+    <string name="play_description">"चलाउनुहोस्"</string>
+    <string name="prev_description">"अघिल्लो ट्रयाक"</string>
+    <string name="rew_description">"दोहोर्याउनुहोस्"</string>
+    <string name="stop_description">"रोक्नुहोस्"</string>
+</resources>

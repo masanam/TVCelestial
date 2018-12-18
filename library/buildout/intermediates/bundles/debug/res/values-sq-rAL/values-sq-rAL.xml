@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ffw_description">"Përparo me shpejtësi"</string>
+    <string name="next_description">"Kënga tjetër"</string>
+    <string name="pause_description">"Pauzë"</string>
+    <string name="play_description">"Luaj"</string>
+    <string name="prev_description">"Kënga e mëparshme"</string>
+    <string name="rew_description">"Kthehu pas"</string>
+    <string name="stop_description">"Ndalo"</string>
+</resources>

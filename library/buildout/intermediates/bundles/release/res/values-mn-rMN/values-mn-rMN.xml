@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ffw_description">"Хурдан урагшлуулах"</string>
+    <string name="next_description">"Дараагийн трек"</string>
+    <string name="pause_description">"Түр зогсоох"</string>
+    <string name="play_description">"Тоглуулах"</string>
+    <string name="prev_description">"Өмнөх трек"</string>
+    <string name="rew_description">"Буцааж хураах"</string>
+    <string name="stop_description">"Зогсоох"</string>
+</resources>

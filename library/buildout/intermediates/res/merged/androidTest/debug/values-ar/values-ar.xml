@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ffw_description">"تقديم سريع"</string>
+    <string name="next_description">"المقطع الصوتي التالي"</string>
+    <string name="pause_description">"إيقاف مؤقت"</string>
+    <string name="play_description">"تشغيل"</string>
+    <string name="prev_description">"المقطع الصوتي السابق"</string>
+    <string name="rew_description">"إرجاع"</string>
+    <string name="stop_description">"إيقاف"</string>
+</resources>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ffw_description">"Avance rapide"</string>
+    <string name="next_description">"Chanson suivante"</string>
+    <string name="pause_description">"Pause"</string>
+    <string name="play_description">"Lecture"</string>
+    <string name="prev_description">"Chanson précédente"</string>
+    <string name="rew_description">"Reculer"</string>
+    <string name="stop_description">"Arrêter"</string>
+</resources>

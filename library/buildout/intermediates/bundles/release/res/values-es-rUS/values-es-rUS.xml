@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ffw_description">"Avanzar"</string>
+    <string name="next_description">"Siguiente pista"</string>
+    <string name="pause_description">"Pausar"</string>
+    <string name="play_description">"Reproducir"</string>
+    <string name="prev_description">"Pista anterior"</string>
+    <string name="rew_description">"Retroceder"</string>
+    <string name="stop_description">"Detener"</string>
+</resources>

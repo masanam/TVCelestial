@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+	android:layout_height="match_parent">
+
+	<id.co.kynga.app.control.RecyclingImageView
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:src="@drawable/kyngmob_background"
+		android:scaleType="fitXY" />
+
+	<android.support.v4.widget.DrawerLayout
+		android:id="@+id/lay_drawer"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent">
+
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:orientation="vertical">
+			<android.support.v7.widget.Toolbar
+				android:layout_width="match_parent"
+				android:layout_height="@dimen/dimenTopBar"
+				android:gravity="center_vertical"
+				android:background="@android:color/transparent">
+				<LinearLayout
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:paddingRight="15dp"
+					android:gravity="center_vertical"
+					android:orientation="horizontal">
+					<ImageButton
+						android:id="@+id/btn_menu"
+						android:layout_width="@dimen/dimenButtonTopBar"
+						android:layout_height="@dimen/dimenButtonTopBar"
+						android:background="@android:color/transparent"
+						android:src="@drawable/ic_menu"
+						android:scaleType="fitXY" />
+					<View
+						android:layout_width="0dp"
+						android:layout_height="match_parent"
+						android:layout_weight="1" />
+				</LinearLayout>
+			</android.support.v7.widget.Toolbar>
+
+                    <ScrollView
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:scrollbars="none">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:padding="5dp"
+                            android:orientation="vertical"
+                            android:scrollbars="none">
+
+                            <RelativeLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content">
+                                <id.co.kynga.app.control.BannerViewPager
+                                    android:id="@+id/vwp_banner"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    />
+                            <LinearLayout
+                                android:id="@+id/lay_banner_loading"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_alignTop="@+id/vwp_banner"
+                                android:layout_alignBottom="@+id/vwp_banner"
+                                android:gravity="center"
+                                android:orientation="vertical">
+                                <me.zhanghai.android.materialprogressbar.MaterialProgressBar
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:indeterminate="true"
+                                    app:mpb_progressStyle="circular"
+                                    style="@style/MStarLoading" />
+                            </LinearLayout>
+                        </RelativeLayout>
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:scrollbarSize="0dp">
+                            <LinearLayout
+                                android:id="@+id/lay_main"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="10dp"
+                                android:orientation="vertical"
+                                />
+                            <LinearLayout
+                                android:id="@+id/lay_main_loading"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:gravity="center"
+                                android:orientation="vertical"
+                                >
+                                <me.zhanghai.android.materialprogressbar.MaterialProgressBar
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:indeterminate="true"
+                                    app:mpb_progressStyle="circular"
+                                    style="@style/MStarLoading"
+                                    />
+
+                            </LinearLayout>
+                            </RelativeLayout>
+
+                        </LinearLayout>
+
+                    </ScrollView>
+
+    </LinearLayout>
+
+    <include layout="@layout/main_menu" />
+
+	</android.support.v4.widget.DrawerLayout>
+</RelativeLayout>

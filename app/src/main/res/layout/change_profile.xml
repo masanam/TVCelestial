@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/RelativeLayout1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_centerInParent="true"
+		android:background="@drawable/premium_preview_shape_border"
+		android:orientation="vertical"
+		android:padding="5dp" >
+		<FrameLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:background="@color/SemiDimGray" >
+			<TextView
+				android:id="@+id/textView1"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_gravity="center"
+				android:layout_marginBottom="10dp"
+				android:layout_marginTop="10dp"
+				android:text="@string/change_profile"
+				android:textAppearance="?android:attr/textAppearanceLarge"
+				android:textColor="@color/caldroid_white"
+				android:textSize="32sp" />
+		</FrameLayout>
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:background="@color/caldroid_middle_gray"
+			android:orientation="horizontal"
+			android:padding="20dp">
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:orientation="vertical" >
+				<LinearLayout
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:layout_marginBottom="10dp"
+					android:background="@color/white" >
+					<ImageView
+						android:id="@+id/imageView2"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:src="@drawable/ic_phone" />
+					<EditText
+						android:id="@+id/old_phone"
+						android:layout_width="300dp"
+						android:layout_height="60dp"
+						android:layout_weight="1"
+						android:clickable="false"
+						android:ems="10"
+						android:focusable="false"
+						android:focusableInTouchMode="false"
+						android:hint="@string/phone_number"
+						android:imeOptions="actionNext"
+						android:inputType="number"
+						android:paddingLeft="10dp"
+						android:textColor="@color/caldroid_555" />
+				</LinearLayout>
+				<LinearLayout
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:layout_marginBottom="10dp"
+					android:background="@color/white" >
+
+					<ImageView
+						android:id="@+id/imageView1"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:src="@drawable/ic_email" />
+					<EditText
+						android:id="@+id/newEmail"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:layout_gravity="center"
+						android:ems="10"
+						android:hint="New Email"
+						android:imeOptions="actionNext"
+						android:inputType="text"
+						android:textAllCaps="false"
+						android:textColor="@color/caldroid_555" >
+						<requestFocus />
+					</EditText>
+				</LinearLayout>
+				<LinearLayout
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:layout_marginBottom="10dp"
+					android:background="@color/white">
+					<ImageView
+						android:id="@+id/imageView3"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:layout_gravity="center"
+						android:src="@drawable/ic_address" />
+					<EditText
+						android:id="@+id/newAddress"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:layout_gravity="center"
+						android:ems="10"
+						android:hint="New Address"
+						android:imeOptions="actionDone"
+						android:inputType="text"
+						android:lines="3"
+						android:textAllCaps="false"
+						android:textColor="@color/caldroid_555" />
+				</LinearLayout>
+				<LinearLayout
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content">
+					<Button
+						android:id="@+id/b_change_profile"
+						android:layout_width="0dp"
+						android:layout_height="@dimen/edit_text_height"
+						android:layout_weight="1"
+						android:background="@drawable/button_green_selector"
+						android:text="@string/submit"
+						android:textAllCaps="false"
+						android:textColor="@color/white"
+						android:textSize="32sp" />
+				</LinearLayout>
+			</LinearLayout>
+		</LinearLayout>
+	</LinearLayout>
+	<ImageView
+		android:id="@+id/fLoader"
+		android:layout_width="180dp"
+		android:layout_height="180dp"
+		android:layout_centerInParent="true"
+		android:src="@drawable/ic_clock_dial"
+		android:visibility="gone" />
+</RelativeLayout>

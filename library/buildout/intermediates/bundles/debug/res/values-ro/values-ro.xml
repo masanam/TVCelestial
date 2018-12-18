@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ffw_description">"Derulați rapid înainte"</string>
+    <string name="next_description">"Melodia următoare"</string>
+    <string name="pause_description">"Pauză"</string>
+    <string name="play_description">"Redați"</string>
+    <string name="prev_description">"Melodia anterioară"</string>
+    <string name="rew_description">"Derulați"</string>
+    <string name="stop_description">"Opriți"</string>
+</resources>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape>
+            <gradient
+                android:startColor="@color/happen_menu_1"
+                android:centerColor="@color/happen_menu_2"
+                android:endColor="@color/happen_menu_3"
+                android:angle="180"/>
+        </shape>
+    </item>
+</selector>

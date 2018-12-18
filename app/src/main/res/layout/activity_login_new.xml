@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	android:paddingTop="30dp"
+	android:gravity="center|top"
+	android:orientation="vertical"
+	android:background="@drawable/kyngmob_background">
+
+	<ImageView
+			android:layout_width="200dp"
+			android:layout_height="100dp"
+			android:src="@drawable/ic_logo"
+			android:scaleType="fitCenter"
+		/>
+
+	<TextView
+			android:id="@+id/textView1"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="Please enter your phone number."
+			android:textColor="@color/white"
+			android:textSize="@dimen/text_size_large"
+			android:gravity="center"/>
+
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="100dp"
+			android:paddingTop="10dp"
+			android:paddingLeft="10dp"
+			android:paddingRight="10dp"
+			android:gravity="center_horizontal|center_vertical"
+			android:orientation="horizontal">
+
+			<LinearLayout
+				android:focusable="true"
+				android:focusableInTouchMode="true"
+				android:layout_width="0px"
+				android:layout_height="0px"/>
+
+			<ImageView
+				android:layout_width="50dp"
+				android:layout_height="60dp"
+				android:background="@drawable/icon_phone"
+				android:scaleType="fitXY"
+				/>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+                <com.hbb20.CountryCodePicker
+                    android:id="@+id/ccp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:gravity="center"
+					app:textSize="@dimen/text_size_medium"
+                    app:contentColor="@color/md_grey_400"
+					android:background="@drawable/my_border"
+					android:layout_marginRight="10dp"
+					app:defaultNameCode="ID"
+                    />
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:hint=" Phone Number"
+                    android:id="@+id/textPhone"
+                    android:textColor="@color/md_grey_900"
+                    android:textColorHint="@color/md_grey_400"
+                    android:maxLength="30"
+                    android:inputType="phone"
+					android:textSize="@dimen/text_size_medium"
+					android:background="@drawable/my_border"
+                    android:layout_toRightOf="@+id/ccp"/>
+            </RelativeLayout>
+			<!--
+                        <android.support.design.widget.TextInputLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:theme="@style/MStarTextFloat"
+                            style="@style/MStarTextFloat">
+                            <id.co.kynga.app.control.PrefixEditText
+                                android:id="@+id/txt_phone_number"
+                                android:layout_width="200dp"
+                                android:layout_height="60dp"
+                                android:inputType="number"
+                                android:hint="+62816106080"
+                                android:theme="@style/MStarEditText2"
+                                style="@style/MStarEditText2"
+                                android:background="@drawable/my_border"/>
+                        </android.support.design.widget.TextInputLayout>
+            -->
+	</LinearLayout>
+
+		<ImageButton
+			android:id="@+id/btn_login"
+			android:layout_width="@dimen/dimenButtonWidth"
+			android:layout_height="@dimen/dimenButtonHeight"
+			android:layout_marginTop="10dp"
+			android:src="@drawable/bg_submit"
+			android:background="@android:color/transparent"
+			android:scaleType="fitXY"
+            />
+
+	</LinearLayout>

@@ -1,0 +1,843 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:gravity="center|top"
+	android:orientation="vertical"
+	android:background="@drawable/kyngmob_background"
+	>
+
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="70dp"
+		android:gravity="center_vertical"
+		android:orientation="horizontal"
+		android:background="@color/transparan">
+		<ImageButton
+			android:layout_marginLeft="5dp"
+			android:id="@+id/btn_back"
+			android:layout_width="40dp"
+			android:layout_height="40dp"
+			android:background="@drawable/ic_back"
+			android:scaleType="fitXY"
+			android:layout_gravity="left|center_vertical"
+			/>
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:gravity="center_vertical"
+			android:orientation="horizontal"
+			android:layout_weight="1"/>
+		<ImageView
+			android:id="@+id/img_package"
+			android:layout_width="100dp"
+			android:layout_height="66dp"
+			android:layout_gravity="center|right"
+			android:scaleType="fitXY"
+			android:paddingTop="2dp"
+			android:paddingRight="5dp"
+			android:paddingBottom="2dp"
+			/>
+	</LinearLayout>
+
+	<FrameLayout
+		android:id="@+id/frameLayout"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:orientation="vertical"
+		android:layout_weight="1"
+		android:layout_marginLeft="15dp"
+		android:layout_marginRight="15dp"
+		android:layout_marginTop="5dp"
+		android:layout_marginBottom="5dp"
+		>
+		<LinearLayout
+			android:id="@+id/layoutMonth"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:orientation="vertical"
+			android:layout_weight="1"
+			>
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="match_parent"
+				android:orientation="vertical"
+				android:layout_gravity="center"
+				android:id="@+id/layout1month"
+				android:background="@color/white"
+				android:layout_marginBottom="5dp"
+				android:layout_weight="1">
+				<TextView
+					android:layout_width="match_parent"
+					android:layout_height="match_parent"
+					android:text="1 Month"
+					android:textColor="@color/black"
+					android:textSize="25sp"
+					android:gravity="center|bottom"
+					android:layout_weight="1"
+				/>
+				<LinearLayout
+					android:layout_width="wrap_content"
+					android:layout_height="match_parent"
+					android:orientation="horizontal"
+					android:layout_gravity="center"
+					android:layout_weight="0.8"
+					>
+					<TextView
+						android:layout_width="wrap_content"
+						android:layout_height="match_parent"
+						android:text="  Rp. "
+						android:textColor="@color/black"
+						android:textSize="25sp"
+						android:gravity="right|top"/>
+					<TextView
+						android:id="@+id/textPrice1Month"
+						android:layout_width="wrap_content"
+						android:layout_height="match_parent"
+						android:text="xxxxxx"
+						android:textColor="@color/black"
+						android:textSize="30sp"
+						android:gravity="center"/>
+					<TextView
+						android:layout_width="wrap_content"
+						android:layout_height="match_parent"
+						android:text="/ "
+						android:textColor="@color/black"
+						android:textSize="30sp"
+						android:gravity="center"/>
+					<TextView
+						android:layout_width="wrap_content"
+						android:layout_height="match_parent"
+						android:text="Month"
+						android:textColor="@color/black"
+						android:textSize="20sp"
+						android:gravity="center"/>
+				</LinearLayout>
+
+			</LinearLayout>
+
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="match_parent"
+				android:orientation="vertical"
+				android:layout_gravity="center"
+				android:id="@+id/layout3month"
+				android:layout_marginBottom="5dp"
+				android:background="@color/white"
+				android:layout_weight="1">
+				<TextView
+					android:layout_width="match_parent"
+					android:layout_height="match_parent"
+					android:text="3 Months"
+					android:textColor="@color/black"
+					android:textSize="20sp"
+					android:gravity="center|bottom"
+					android:layout_weight="1"/>
+				<LinearLayout
+					android:layout_width="wrap_content"
+					android:layout_height="match_parent"
+					android:orientation="horizontal"
+					android:layout_gravity="center"
+					android:layout_weight="0.8">
+					<TextView
+						android:layout_width="wrap_content"
+						android:layout_height="match_parent"
+						android:text="  Rp. "
+						android:textColor="@color/black"
+						android:textSize="25sp"
+						android:gravity="right|top"/>
+					<TextView
+						android:id="@+id/textPricePerMonth3"
+						android:layout_width="wrap_content"
+						android:layout_height="match_parent"
+						android:text="xxxxxx"
+						android:textColor="@color/black"
+						android:textSize="30sp"
+						android:gravity="center|bottom"/>
+					<TextView
+						android:layout_width="wrap_content"
+						android:layout_height="match_parent"
+						android:text="/ "
+						android:textColor="@color/black"
+						android:textSize="30sp"
+						android:gravity="center|bottom"/>
+					<TextView
+						android:layout_width="wrap_content"
+						android:layout_height="match_parent"
+						android:text="Month"
+						android:textColor="@color/black"
+						android:textSize="20sp"
+						android:gravity="center|bottom"/>
+				</LinearLayout>
+
+				<LinearLayout
+					android:layout_width="wrap_content"
+					android:layout_height="match_parent"
+					android:orientation="horizontal"
+					android:layout_gravity="center|top"
+					android:layout_weight="1">
+					<TextView
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:text="Rp. "
+						android:textColor="@color/colorRed"
+						android:textSize="20sp" />
+					<TextView
+						android:id="@+id/textPrice3Months"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:text="xxxxxx"
+						android:textColor="@color/colorRed"
+						android:textSize="20sp" />
+				</LinearLayout>
+			</LinearLayout>
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="match_parent"
+				android:orientation="vertical"
+				android:layout_gravity="center"
+				android:id="@+id/layout6month"
+				android:layout_marginBottom="5dp"
+				android:background="@color/white"
+				android:layout_weight="1">
+				<TextView
+					android:layout_width="match_parent"
+					android:layout_height="match_parent"
+					android:text="6 Months"
+					android:textColor="@color/black"
+					android:textSize="20sp"
+					android:gravity="center|bottom"
+					android:layout_weight="1"/>
+				<LinearLayout
+					android:layout_width="wrap_content"
+					android:layout_height="match_parent"
+					android:orientation="horizontal"
+					android:layout_gravity="center"
+					android:layout_weight="0.8">
+					<TextView
+						android:layout_width="wrap_content"
+						android:layout_height="match_parent"
+						android:text="  Rp. "
+						android:textColor="@color/black"
+						android:textSize="25sp"
+						android:gravity="right|top"/>
+					<TextView
+						android:id="@+id/textPricePerMonth6"
+						android:layout_width="wrap_content"
+						android:layout_height="match_parent"
+						android:text="xxxxxx"
+						android:textColor="@color/black"
+						android:textSize="30sp"
+						android:gravity="center|bottom"/>
+					<TextView
+						android:layout_width="wrap_content"
+						android:layout_height="match_parent"
+						android:text="/ "
+						android:textColor="@color/black"
+						android:textSize="30sp"
+						android:gravity="center|bottom"/>
+					<TextView
+						android:layout_width="wrap_content"
+						android:layout_height="match_parent"
+						android:text="Month"
+						android:textColor="@color/black"
+						android:textSize="20sp"
+						android:gravity="center|bottom"/>
+				</LinearLayout>
+
+				<LinearLayout
+					android:layout_width="wrap_content"
+					android:layout_height="match_parent"
+					android:orientation="horizontal"
+					android:layout_gravity="center|top"
+					android:layout_weight="1">
+					<TextView
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:text="Rp. "
+						android:textColor="@color/colorRed"
+						android:textSize="20sp" />
+					<TextView
+						android:id="@+id/textPrice6Months"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:text="xxxxxx"
+						android:textColor="@color/colorRed"
+						android:textSize="20sp" />
+				</LinearLayout>
+			</LinearLayout>
+
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="match_parent"
+				android:orientation="vertical"
+				android:layout_gravity="center"
+				android:id="@+id/layout9month"
+				android:layout_marginBottom="5dp"
+				android:background="@color/white"
+				android:layout_weight="1"
+				android:visibility="gone"
+				>
+				<TextView
+					android:layout_width="match_parent"
+					android:layout_height="match_parent"
+					android:text="9 Months"
+					android:textColor="@color/black"
+					android:textSize="20sp"
+					android:gravity="center|bottom"
+					android:layout_weight="1"/>
+				<LinearLayout
+					android:layout_width="wrap_content"
+					android:layout_height="match_parent"
+					android:orientation="horizontal"
+					android:layout_gravity="center"
+					android:layout_weight="0.8">
+					<TextView
+						android:layout_width="wrap_content"
+						android:layout_height="match_parent"
+						android:text="  Rp. "
+						android:textColor="@color/black"
+						android:textSize="25sp"
+						android:gravity="right|top"/>
+					<TextView
+						android:id="@+id/textPricePerMonth9"
+						android:layout_width="wrap_content"
+						android:layout_height="match_parent"
+						android:text="xxxxxx"
+						android:textColor="@color/black"
+						android:textSize="30sp"
+						android:gravity="center|bottom"/>
+					<TextView
+						android:layout_width="wrap_content"
+						android:layout_height="match_parent"
+						android:text="/ "
+						android:textColor="@color/black"
+						android:textSize="30sp"
+						android:gravity="center|bottom"/>
+					<TextView
+						android:layout_width="wrap_content"
+						android:layout_height="match_parent"
+						android:text="Month"
+						android:textColor="@color/black"
+						android:textSize="20sp"
+						android:gravity="center|bottom"/>
+				</LinearLayout>
+
+				<LinearLayout
+					android:layout_width="wrap_content"
+					android:layout_height="match_parent"
+					android:orientation="horizontal"
+					android:layout_gravity="center|top"
+					android:layout_weight="1">
+					<TextView
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:text="Rp. "
+						android:textColor="@color/colorRed"
+						android:textSize="20sp" />
+					<TextView
+						android:id="@+id/textPrice9Months"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:text="xxxxxx"
+						android:textColor="@color/colorRed"
+						android:textSize="20sp" />
+				</LinearLayout>
+			</LinearLayout>
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="match_parent"
+				android:orientation="vertical"
+				android:layout_gravity="center"
+				android:id="@+id/layout12month"
+				android:background="@color/white"
+				android:layout_weight="1">
+				<TextView
+					android:layout_width="match_parent"
+					android:layout_height="match_parent"
+					android:text="12 Months"
+					android:textColor="@color/black"
+					android:textSize="20sp"
+					android:gravity="center|bottom"
+					android:layout_weight="1"/>
+				<LinearLayout
+					android:layout_width="wrap_content"
+					android:layout_height="match_parent"
+					android:orientation="horizontal"
+					android:layout_gravity="center"
+					android:layout_weight="0.8">
+					<TextView
+						android:layout_width="wrap_content"
+						android:layout_height="match_parent"
+						android:text="  Rp. "
+						android:textColor="@color/black"
+						android:textSize="25sp"
+						android:gravity="right|top"/>
+					<TextView
+						android:id="@+id/textPricePerMonth12"
+						android:layout_width="wrap_content"
+						android:layout_height="match_parent"
+						android:text="xxxxxx"
+						android:textColor="@color/black"
+						android:textSize="30sp"
+						android:gravity="center|bottom"/>
+					<TextView
+						android:layout_width="wrap_content"
+						android:layout_height="match_parent"
+						android:text="/ "
+						android:textColor="@color/black"
+						android:textSize="30sp"
+						android:gravity="center|bottom"/>
+					<TextView
+						android:layout_width="wrap_content"
+						android:layout_height="match_parent"
+						android:text="Month"
+						android:textColor="@color/black"
+						android:textSize="20sp"
+						android:gravity="center|bottom"/>
+				</LinearLayout>
+
+				<LinearLayout
+					android:layout_width="wrap_content"
+					android:layout_height="match_parent"
+					android:orientation="horizontal"
+					android:layout_gravity="center|top"
+					android:layout_weight="1">
+					<TextView
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:text="Rp. "
+						android:textColor="@color/colorRed"
+						android:textSize="20sp" />
+					<TextView
+						android:id="@+id/textPrice12Months"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:text="xxxxxx"
+						android:textColor="@color/colorRed"
+						android:textSize="20sp" />
+				</LinearLayout>
+			</LinearLayout>
+
+
+		</LinearLayout>
+
+
+		<LinearLayout
+			android:id="@+id/layoutChoosePay"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:orientation="vertical"
+			android:layout_weight="1"
+			android:background="@drawable/kyngmob_background"
+			android:visibility="gone"
+			android:animateLayoutChanges="true"
+			>
+
+			<ImageView
+				android:id="@+id/btnClose"
+				android:layout_width="40dp"
+				android:layout_height="40dp"
+				android:scaleType="fitXY"
+				android:layout_gravity="right|top"
+				android:background="@drawable/icon_close3"
+			/>
+
+			<TextView
+				android:id="@+id/textTitle"
+				android:layout_width="match_parent"
+				android:layout_height="match_parent"
+				android:text="Please choose your payment method"
+				android:scrollbars="vertical"
+				android:gravity="center"
+				android:layout_weight="1"
+				android:textSize="20sp"
+				android:textColor="@color/white"
+				/>
+			<ImageButton
+				android:id="@+id/btnTopup"
+				android:layout_width="200dp"
+				android:layout_height="100dp"
+				android:src="@drawable/icon_topup_transparan"
+				android:background="@android:color/transparent"
+				android:scaleType="fitXY"
+				android:layout_gravity="center"
+				android:layout_marginBottom="20dp"
+				/>
+			<ImageButton
+				android:id="@+id/btnCc"
+				android:layout_width="200dp"
+				android:layout_height="100dp"
+				android:src="@drawable/icon_cc_transparan"
+				android:background="@android:color/transparent"
+				android:scaleType="fitXY"
+				android:layout_marginTop="20dp"
+				android:layout_gravity="center"
+				android:layout_marginBottom="40dp"
+				/>
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="50dp"
+				android:orientation="vertical"
+				/>
+		</LinearLayout>
+
+		<LinearLayout
+			android:id="@+id/layoutTopUpNobalance"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:orientation="vertical"
+			android:layout_weight="1"
+			android:background="@drawable/kyngmob_background"
+			android:visibility="invisible"
+			>
+
+			<ImageView
+				android:id="@+id/btnClose2"
+				android:layout_width="40dp"
+				android:layout_height="40dp"
+				android:scaleType="fitXY"
+				android:layout_gravity="right|top"
+				android:background="@drawable/icon_close3"
+				/>
+
+			<ImageButton
+				android:id="@+id/btnTopup2"
+				android:layout_width="200dp"
+				android:layout_height="100dp"
+				android:src="@drawable/icon_topup_transparan"
+				android:background="@android:color/transparent"
+				android:scaleType="fitXY"
+				android:layout_gravity="center"
+				android:layout_margin="20dp"
+				/>
+			<TextView
+				android:id="@+id/textYouAboutTopupNoBalance"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:text="You are about to purchasexxxxxxx"
+				android:scrollbars="vertical"
+				android:gravity="center"
+				android:textSize="20sp"
+				android:textColor="@color/white"
+				android:layout_margin="20dp"
+				/>
+
+			<TextView
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:text="Insufficient balance, click OK for top up"
+				android:scrollbars="vertical"
+				android:gravity="center"
+				android:textColor="@color/colorRed"
+				android:background="@color/white"
+				android:layout_margin="20dp"
+				/>
+
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="match_parent"
+				android:orientation="vertical"
+				android:layout_weight="1"
+				/>
+
+			<ImageButton
+				android:id="@+id/btnNokTopUp"
+				android:layout_width="150dp"
+				android:layout_height="50dp"
+				android:src="@drawable/btn_ok"
+				android:background="@android:color/transparent"
+				android:scaleType="fitXY"
+				android:layout_gravity="center|bottom"
+				android:layout_marginBottom="20dp"
+				/>
+
+		</LinearLayout>
+
+		<LinearLayout
+			android:id="@+id/layoutTopUpOk"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:orientation="vertical"
+			android:layout_weight="1"
+			android:background="@drawable/kyngmob_background"
+			android:visibility="invisible"
+			>
+
+			<ImageView
+				android:id="@+id/btnClose3"
+				android:layout_width="40dp"
+				android:layout_height="40dp"
+				android:scaleType="fitXY"
+				android:layout_gravity="right|top"
+				android:background="@drawable/icon_close3"
+				/>
+
+			<ImageButton
+				android:layout_width="200dp"
+				android:layout_height="100dp"
+				android:src="@drawable/icon_topup_transparan"
+				android:background="@android:color/transparent"
+				android:scaleType="fitXY"
+				android:layout_gravity="center"
+				android:layout_margin="20dp"
+				/>
+			<TextView
+				android:id="@+id/textYouAboutTopup"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:text="You are about to purchasexxxxxxx ≈"
+				android:scrollbars="vertical"
+				android:gravity="center"
+				android:textSize="20sp"
+				android:textColor="@color/white"
+				android:layout_margin="20dp"
+				/>
+
+			<TextView
+				android:id="@+id/textMyAccountRp"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:text="From my account balance Rp. "
+				android:scrollbars="vertical"
+				android:gravity="center"
+				android:textColor="@color/black"
+				android:layout_margin="20dp"
+				android:background="@color/white"
+				/>
+
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="match_parent"
+				android:orientation="vertical"
+				android:layout_weight="1"
+				/>
+
+			<ImageButton
+				android:id="@+id/btnOKTopUp"
+				android:layout_width="150dp"
+				android:layout_height="50dp"
+				android:src="@drawable/btn_ok"
+				android:background="@android:color/transparent"
+				android:scaleType="fitXY"
+				android:layout_gravity="center|bottom"
+				android:layout_marginBottom="20dp"
+				/>
+
+		</LinearLayout>
+
+		<LinearLayout
+			android:id="@+id/layoutCcNoReg"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:orientation="vertical"
+			android:layout_weight="1"
+			android:background="@drawable/kyngmob_background"
+			android:visibility="gone"
+			>
+
+			<ImageView
+				android:id="@+id/btnClosedCcNoReg"
+				android:layout_width="40dp"
+				android:layout_height="40dp"
+				android:scaleType="fitXY"
+				android:layout_gravity="right|top"
+				android:background="@drawable/icon_close3"
+				/>
+
+			<ImageButton
+				android:layout_width="200dp"
+				android:layout_height="100dp"
+				android:src="@drawable/icon_cc_transparan"
+				android:background="@android:color/transparent"
+				android:scaleType="fitXY"
+				android:layout_gravity="center"
+				android:layout_margin="20dp"
+				/>
+			<TextView
+				android:id="@+id/textYouAboutCcNoReg"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:text="You are about to purchasexxxxxxx"
+				android:scrollbars="vertical"
+				android:gravity="center"
+				android:textSize="20sp"
+				android:textColor="@color/white"
+				android:layout_margin="20dp"
+				/>
+
+			<TextView
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:text="No registered credit card, click OK to register"
+				android:scrollbars="vertical"
+				android:gravity="center"
+				android:textColor="@color/colorRed"
+				android:background="@color/white"
+				android:layout_margin="20dp"
+				/>
+
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="match_parent"
+				android:orientation="vertical"
+				android:layout_weight="1"
+				/>
+
+			<ImageButton
+				android:id="@+id/btnOkCcNoReg"
+				android:layout_width="150dp"
+				android:layout_height="50dp"
+				android:src="@drawable/btn_ok"
+				android:background="@android:color/transparent"
+				android:scaleType="fitXY"
+				android:layout_gravity="center|bottom"
+				android:layout_marginBottom="20dp"
+				/>
+
+		</LinearLayout>
+		<LinearLayout
+			android:id="@+id/layoutCcReg"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:orientation="vertical"
+			android:layout_weight="1"
+			android:background="@drawable/kyngmob_background"
+			android:visibility="gone"
+			>
+
+			<ImageView
+				android:id="@+id/btnClosedCcReg"
+				android:layout_width="40dp"
+				android:layout_height="40dp"
+				android:scaleType="fitXY"
+				android:layout_gravity="right|top"
+				android:background="@drawable/icon_close3"
+				/>
+
+			<ImageButton
+				android:layout_width="200dp"
+				android:layout_height="100dp"
+				android:src="@drawable/icon_cc_transparan"
+				android:background="@android:color/transparent"
+				android:scaleType="fitXY"
+				android:layout_gravity="center"
+				android:layout_margin="20dp"
+				/>
+			<TextView
+				android:id="@+id/textYouAboutCcReg"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:text="You are about to purchasexxxxxxx"
+				android:scrollbars="vertical"
+				android:gravity="center"
+				android:textSize="20sp"
+				android:textColor="@color/white"
+				android:layout_margin="20dp"
+				/>
+
+			<TextView
+				android:id="@+id/textFromMyCcNo"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:text="From my registered Credit Card..."
+				android:scrollbars="vertical"
+				android:gravity="center"
+				android:textColor="@color/black"
+				android:background="@color/white"
+				android:layout_margin="20dp"
+				/>
+
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="match_parent"
+				android:orientation="vertical"
+				android:layout_weight="1"
+				/>
+
+			<ImageButton
+				android:id="@+id/btnOkCcReg"
+				android:layout_width="150dp"
+				android:layout_height="50dp"
+				android:src="@drawable/btn_ok"
+				android:background="@android:color/transparent"
+				android:scaleType="fitXY"
+				android:layout_gravity="center|bottom"
+				android:layout_marginBottom="20dp"
+				/>
+		</LinearLayout>
+
+		<LinearLayout
+			android:id="@+id/layoutThanks"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:orientation="vertical"
+			android:layout_weight="1"
+			android:background="@drawable/kyngmob_background"
+			android:visibility="gone"
+			>
+
+			<ImageView
+				android:id="@+id/btnCloseThanks"
+				android:layout_width="40dp"
+				android:layout_height="40dp"
+				android:scaleType="fitXY"
+				android:layout_gravity="right|top"
+				android:background="@drawable/icon_close3"
+				/>
+
+			<TextView
+				android:layout_width="match_parent"
+				android:layout_height="match_parent"
+				android:text="THANK YOU"
+				android:scrollbars="vertical"
+				android:gravity="center|bottom"
+				android:textColor="@color/white"
+				android:layout_margin="20dp"
+				android:layout_weight="1"
+				/>
+			<TextView
+				android:id="@+id/textYouHaveThx"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:text="You have purchased..."
+				android:scrollbars="vertical"
+				android:gravity="center"
+				android:textColor="@color/white"
+				android:layout_margin="20dp"
+				/>
+
+			<TextView
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:text="Enjoy The Ride"
+				android:scrollbars="vertical"
+				android:gravity="center"
+				android:textColor="@color/white"
+				android:layout_margin="20dp"
+				android:textSize="25sp"
+				/>
+
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="match_parent"
+				android:orientation="vertical"
+				android:layout_weight="1"
+				/>
+
+			<ImageButton
+				android:id="@+id/btnOKThanks"
+				android:layout_width="150dp"
+				android:layout_height="50dp"
+				android:src="@drawable/btn_ok"
+				android:background="@android:color/transparent"
+				android:scaleType="fitXY"
+				android:layout_gravity="center|bottom"
+				android:layout_marginBottom="20dp"
+				/>
+		</LinearLayout>
+
+
+	</FrameLayout>
+</LinearLayout>

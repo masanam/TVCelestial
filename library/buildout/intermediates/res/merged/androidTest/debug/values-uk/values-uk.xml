@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ffw_description">"Перемотати вперед"</string>
+    <string name="next_description">"Наступна композиція"</string>
+    <string name="pause_description">"Пауза"</string>
+    <string name="play_description">"Відтворити"</string>
+    <string name="prev_description">"Попередня композиція"</string>
+    <string name="rew_description">"Перемотати назад"</string>
+    <string name="stop_description">"Зупинити"</string>
+</resources>

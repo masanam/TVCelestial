@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+<!--
+	<string name="api_server">http://api-svr.kynga.co.id</string>
+	<string name="api_server2">http://back.kynga.co.id</string>
+	<string name="api_server_app_mstar">http://api3.mstar.co.id</string>
+	<string name="api_server_app_mstar4">http://api2.mstar.co.id</string>
+	<string name="url_happenlive">http://api-svr.kynga.co.id/app/happenlive</string>
+-->
+	<string name="api_server">http://new-api.mstar.co.id</string><!--API content MStar box & mobile Cloud -->
+	<string name="api_server2">http://payment2.mstar.co.id</string><!--API Payment MStar box & mobile Cloud -->
+	<string name="api_server_app_mstar">http://api4.mstar.co.id</string><!--API content Play Store MStar Cloud -->
+	<string name="api_server_app_mstar4">http://payment2.mstar.co.id</string><!--API payment Play Store MStar -->
+	<string name="url_happenlive">http://new-api.mstar.co.id/app/happenlive</string>
+	<string name="url_country_code">http://freegeoip.net/json/</string>
+
+	<!--<string name="api_server">http://api.mstar.co.id</string>-->
+	<!--<string name="api_server2">http://api2.mstar.co.id</string>-->
+	<!--<string name="api_server2">http://api-svr.kynga.co.id/backend/index.php?</string>-->
+	<!--<string name="api_server2">http://api-svr.kynga.co.id/backend</string>-->
+
+	<string name="api_server_test">http://tivi.biz/api_mstar</string>
+	<string name="web_server">http://mstar.co.id</string>
+	<!-- URL -->
+	<string name="url_checkLogin">%s/user/checkLogin</string>
+	<string name="url_checkLogin_app_mstar">%s/user/checkLogin</string>
+	<string name="url_checkRegister">%s/user/checkregister</string>
+	<string name="url_payment">%s/payment/credit_card</string>
+	<string name="url_payment2">%s/payment/bank_transfer</string>
+	<string name="url_payment3">%s/payment/echannel</string>
+	<string name="url_payment_status">%s/nmedia/payment/status</string>
+	<string name="url_payment_ewallet">%s/payment/ewallet</string>
+
+	<string name="url_subscription_status">%s/subscription/status</string>
+	<string name="url_check_product">%s/app/get/product</string>
+	<string name="url_buy_product">%s/subscription/buy</string>
+
+	<string name="url_payment_snap">%s/snapcheckout/proses</string>
+	<string name="url_payment_snap2">https://app.sandbox.midtrans.com/snap/snap.js</string>
+	<string name="url_balance">%s/accounts/balance</string>
+	<string name="url_login">%s/user/login</string>
+	<string name="url_login2">%s/user/login2</string>
+	<string name="url_logout">%s/user/logout</string>
+	<string name="url_verify">%s/user/verify</string>
+	<string name="url_verify2">%s/user/verify2</string>
+	<string name="url_register">%s/member/register</string>
+	<string name="url_register2">%s/user/register</string>
+	<string name="url_registerNew">%s/user/register_account</string>
+	<string name="url_registerCC">%s/user/registerCC</string>
+	<string name="url_editAccountCC">%s/user/edit/accountCC</string>
+	<string name="url_accountCC">%s/user/accountCC</string>
+	<string name="url_me">%s/user/me</string>
+	<string name="url_activePackage">%s/user/package</string>
+	<string name="url_inactivePackage">%s/user/list/package</string>
+	<string name="url_faq">%s/app/faq</string>
+	<string name="url_tc">%s/app/tc</string>
+	<string name="url_banner">%s/app/banner</string>
+	<string name="url_banner_promo">%s/app/bannerpromo</string>
+	<string name="url_category">%s/app/category</string>
+	<string name="url_content" formatted="false">%s/app/category/%s</string>
+	<string name="url_video_group" formatted="false">%s/app/video-group/%s</string>
+	<string name="url_video_category" formatted="false">%s/app/video-category/%s</string>
+	<string name="url_tv_category" formatted="false">%s/app/tv-category/%s</string>
+	<string name="url_youtube_channel" formatted="false">%s/app/youtube-channel/%s</string>
+	<string name="url_radio_category" formatted="false">%s/app/radio-category/%s</string>
+	<string name="url_game_category2" formatted="false">%s/content/get/listcategory/game</string>
+	<!-- <string name="url_package_data">%s/app/package-data</string> -->
+	<string name="url_package_data">%s/accounts/packagedata</string>
+	<string name="url_register_va">%s/credit/registerVA</string>
+	<!--<string name="url_topup_data">%s/credit/topup/data</string>-->
+	<string name="url_topup_data">%s/accounts/topupdata</string>
+
+	<string name="url_youtube_playlist" formatted="false">%s/app/youtube-playlist/%s</string>
+	<string name="url_youtube_search" formatted="false">%s/app/youtubeSearch/%s</string>
+
+
+
+
+	<!-- URL -->
+
+	<string name="url_checkVersion">%s/app/version</string>
+	<string name="url_subscription_list">%s/subscription/list</string>
+
+
+</resources>

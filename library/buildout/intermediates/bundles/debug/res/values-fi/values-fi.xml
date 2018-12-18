@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ffw_description">"Kelaa eteen"</string>
+    <string name="next_description">"Seuraava raita"</string>
+    <string name="pause_description">"Tauko"</string>
+    <string name="play_description">"Toista"</string>
+    <string name="prev_description">"Edellinen raita"</string>
+    <string name="rew_description">"Kelaa taakse"</string>
+    <string name="stop_description">"Seis"</string>
+</resources>

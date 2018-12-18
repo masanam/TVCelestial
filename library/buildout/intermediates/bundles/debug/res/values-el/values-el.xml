@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ffw_description">"Γρήγορη προώθηση"</string>
+    <string name="next_description">"Επόμενο κομμάτι"</string>
+    <string name="pause_description">"Παύση"</string>
+    <string name="play_description">"Αναπαραγωγή"</string>
+    <string name="prev_description">"Προηγούμενο κομμάτι"</string>
+    <string name="rew_description">"Επαναφορά"</string>
+    <string name="stop_description">"Διακοπή"</string>
+</resources>

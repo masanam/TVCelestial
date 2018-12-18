@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ffw_description">"I-fast forward"</string>
+    <string name="next_description">"Susunod na track"</string>
+    <string name="pause_description">"I-pause"</string>
+    <string name="play_description">"I-play"</string>
+    <string name="prev_description">"Nakaraang track"</string>
+    <string name="rew_description">"I-rewind"</string>
+    <string name="stop_description">"Ihinto"</string>
+</resources>

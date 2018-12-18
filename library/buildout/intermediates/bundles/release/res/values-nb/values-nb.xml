@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ffw_description">"Fremoverspoling"</string>
+    <string name="next_description">"Neste spor"</string>
+    <string name="pause_description">"Sett på pause"</string>
+    <string name="play_description">"Spill av"</string>
+    <string name="prev_description">"Forrige spor"</string>
+    <string name="rew_description">"Tilbakespoling"</string>
+    <string name="stop_description">"Stopp"</string>
+</resources>

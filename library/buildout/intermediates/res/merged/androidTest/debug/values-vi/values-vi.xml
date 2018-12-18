@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ffw_description">"Tua đi"</string>
+    <string name="next_description">"Bản nhạc tiếp theo"</string>
+    <string name="pause_description">"Tạm dừng"</string>
+    <string name="play_description">"Phát"</string>
+    <string name="prev_description">"Bản nhạc trước"</string>
+    <string name="rew_description">"Tua lại"</string>
+    <string name="stop_description">"Ngừng"</string>
+</resources>

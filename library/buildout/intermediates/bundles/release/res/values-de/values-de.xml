@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ffw_description">"Vorspulen"</string>
+    <string name="next_description">"Nächster Titel"</string>
+    <string name="pause_description">"Pausieren"</string>
+    <string name="play_description">"Wiedergabe"</string>
+    <string name="prev_description">"Vorheriger Titel"</string>
+    <string name="rew_description">"Zurückspulen"</string>
+    <string name="stop_description">"Beenden"</string>
+</resources>

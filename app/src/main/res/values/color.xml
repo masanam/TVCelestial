@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<color name="main_bg">#050505</color>
+	<color name="white">#ffffff</color>
+	<color name="Black">#000000</color>
+	<color name="full_transparant">#00000000</color>
+	<color name="semi_transparan">#50000000</color>
+	<color name="transparan">#90000000</color>
+	<color name="merah">#cb1c01</color>
+	<color name="merah_tua">#850e01</color>
+	<color name="fb_blue">#385794</color>
+	<color name="navy_blue">#1b2e52</color>
+	<color name="semi_grey">#508c8c8c</color>
+	<color name="old_gray">#2f2f2f</color>
+	<color name="caldroid_333">#ff333333</color>
+	<color name="caldroid_555">#ff555555</color>
+	<color name="caldroid_black">#ff000000</color>
+	<color name="caldroid_darker_gray">#ffaaaaaa</color>
+	<color name="caldroid_gray">#ffcccccc</color>
+	<color name="caldroid_holo_blue_dark">#ff0099cc</color>
+	<color name="caldroid_holo_blue_light">#ff33b5e5</color>
+	<color name="caldroid_light_red">#ffff7f7f</color>
+	<color name="caldroid_lighter_gray">#ffdddddd</color>
+	<color name="caldroid_middle_gray">#ff888888</color>
+	<color name="caldroid_sky_blue">#ffa3e8f7</color>
+	<color name="caldroid_transparent">#00000000</color>
+	<color name="caldroid_white">#ffffffff</color>
+	<color name="hijau_daun">#78b035</color>
+	<color name="hijau_tua">#375315</color>
+	<color name="Chocolate">#D2691E</color>
+	<color name="black">#000000</color>
+	<color name="SpringGreen">#00FF7F</color>
+	<color name="ijo_muda">#7fbac6</color>
+	<color name="ijo_pupus">#88C04C</color>
+	<color name="SemiDimGray">#99696969</color>
+	<color name="merah2">#FF0000</color>
+	<color name="abu_putih">#EFEFEF</color>
+
+	<color name="happen_menu_1">#4e4280</color>
+	<color name="happen_menu_2">#4d396e</color>
+	<color name="happen_menu_3">#32294b</color>
+
+//From MSTAR
+
+	<color name="colorPrimary">#3F51B5</color>
+	<color name="colorPrimaryDark">#303F9F</color>
+	<color name="colorAccent">#3F51B5</color>
+	<color name="colorBase">#3F51B5</color>
+	<color name="colorPlaceholder">#ffffff</color>
+	<color name="colorBackground">#ffffff</color>
+	<color name="colorButton">#3F51B5</color>
+	<color name="colorButtonSelected">#3F51B5</color>
+	<color name="colorButtonMenu">#14172a</color>
+	<color name="colorTitleCategory">#efe919</color>
+	<color name="colorRed">#ff0000</color>
+	<color name="colorCell">#015093</color>
+
+<!--try for refresh-->
+	<string-array name="movie_serial_bg">
+		<item>#24c6d5</item>
+		<item>#57dd86</item>
+		<item>#ad7dcf</item>
+		<item>#ff484d</item>
+		<item>#fcba59</item>
+		<item>#24c6d5</item>
+	</string-array>
+
+
+
+</resources>

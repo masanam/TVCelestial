@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ffw_description">"جلو بردن سریع"</string>
+    <string name="next_description">"آهنگ بعدی"</string>
+    <string name="pause_description">"مکث"</string>
+    <string name="play_description">"پخش"</string>
+    <string name="prev_description">"آهنگ قبلی"</string>
+    <string name="rew_description">"عقب بردن"</string>
+    <string name="stop_description">"توقف"</string>
+</resources>

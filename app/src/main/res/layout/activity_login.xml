@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent">
+	<id.co.kynga.app.control.RecyclingImageView
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:src="@drawable/kyngmob_background"
+		android:scaleType="fitXY" />
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:padding="30dp"
+		android:gravity="center|top"
+		android:orientation="vertical">
+		<id.co.kynga.app.control.RecyclingImageView
+			android:layout_width="@dimen/dimenLogo"
+			android:layout_height="@dimen/dimenLogoHeight"
+			android:src="@drawable/ic_logo"
+			android:scaleType="fitXY" />
+		<android.support.design.widget.TextInputLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="10dp"
+			android:theme="@style/MStarTextFloat"
+			style="@style/MStarTextFloat">
+			<RelativeLayout
+				android:layout_width="match_parent"
+				android:layout_height="match_parent">
+				<com.hbb20.CountryCodePicker
+					android:id="@+id/ccp"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					app:textSize="16sp"
+					app:contentColor="@color/white"
+					app:defaultNameCode="ID"/>
+
+				<id.co.kynga.app.control.PrefixEditText
+					android:id="@+id/txt_phone_number"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:inputType="number"
+					android:hint="@string/hint_phone_number"
+					android:theme="@style/MStarEditText2"
+					style="@style/MStarEditText2"
+					android:layout_alignParentTop="true"
+					android:layout_toRightOf="@+id/ccp"
+					android:layout_toEndOf="@+id/ccp"
+					android:textSize="14sp" />
+			</RelativeLayout>
+		</android.support.design.widget.TextInputLayout>
+		<ImageButton
+			android:id="@+id/btn_login"
+			android:layout_width="@dimen/dimenButtonWidth"
+			android:layout_height="@dimen/dimenButtonHeight"
+			android:layout_marginTop="10dp"
+			android:src="@drawable/bg_submit"
+			android:background="@android:color/transparent"
+			android:scaleType="fitXY" />
+	</LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="google_api_key">AIzaSyDnhCH3-KJWarRf--WXXEvd1II39Do87Zc</string>
+
+    <!-- From MStar -->
+    <string name="media_directory">MStar</string>
+    <!-- both of google_key below are not used. Used google_key in server
+    <string name="google_key">AIzaSyDxPqaPoIeaqPu1KCxUI6PDC2YKeVzqev8</string> this is old key (Ahmadin??)-->
+    <string name="google_key">AIzaSyCSVbc0XsVMQSVEx49zvwyrrsIdSWwBzNA</string>
+    <string name="cs_phone_number">+6221</string>
+    <string name="cs_phone_number_text">021-</string>
+    <string name="cs_email">cs@mstar.co.id</string>
+</resources>

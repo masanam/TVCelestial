@@ -1,0 +1,260 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/kyngmob_background"
+    >
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimenTopBar"
+        android:gravity="center_vertical"
+        android:background="@android:color/transparent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingRight="15dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+            <ImageButton
+                android:id="@+id/btn_back"
+                android:layout_width="@dimen/dimenButtonTopBar"
+                android:layout_height="@dimen/dimenButtonTopBar"
+                android:background="@android:color/transparent"
+                android:src="@drawable/ic_back"
+                android:scaleType="fitXY" />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="right|center"
+                android:text="Virtual Account BCA And Permata"
+                style="@style/MStarTextView2" />
+        </LinearLayout>
+    </android.support.v7.widget.Toolbar>
+    <TextView
+        android:id="@+id/textTransferPayment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Virtual Account BCA And Permata"
+        android:gravity="center_horizontal"
+        android:textSize="20dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/md_white_1000"
+        android:visibility="gone"
+        />
+
+    <TableRow android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/tableRowTextView"
+        android:background="@color/md_blue_A700"
+        android:layout_weight="4"
+        android:gravity="center"
+        >
+        <TextView
+            android:id="@+id/textViewNo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="No"
+            android:layout_weight="1.1"
+            android:textColor="@color/md_white_1000"
+            android:gravity="center"
+            />
+        <TextView
+            android:id="@+id/textViewBank"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Bank"
+            android:layout_weight="1"
+            android:textColor="@color/md_white_1000"
+            android:gravity="center"
+            />
+        <TextView
+            android:id="@+id/textViewVA"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="VA Number"
+            android:layout_weight="0.8"
+            android:textColor="@color/md_white_1000"
+            android:gravity="center"
+            />
+        <TextView
+            android:id="@+id/textViewAmount"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Amount"
+            android:layout_weight="1"
+            android:textColor="@color/md_white_1000"
+            android:gravity="center"
+            />
+        <TextView
+            android:id="@+id/textViewStatus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Status"
+            android:layout_weight="1"
+            android:textColor="@color/md_white_1000"
+            android:gravity="center"
+            />
+
+        </TableRow>
+<!--
+    <HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/scrollHorizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+        -->
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+
+        android:scrollbarAlwaysDrawVerticalTrack="true"
+        android:verticalScrollbarPosition="right"
+        android:overScrollMode="always"
+        android:layout_weight="1"
+        >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+            <TableRow android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/tableRowListView1"
+                >
+
+                <ListView
+                    android:id="@+id/listView1_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="0dip"
+                    android:layout_weight="1.1"
+                    android:scrollbars="none"
+                    android:layout_gravity="left"
+                    />
+
+                <ListView
+                    android:id="@+id/listView1_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="0dip"
+                    android:layout_weight="1"
+                    android:scrollbars="none"
+                    android:layout_gravity="left"
+                    />
+                <ListView
+                    android:id="@+id/listView1_3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="0dip"
+                    android:layout_weight="0.8"
+                    android:scrollbars="none"
+                    android:layout_gravity="left"
+                    />
+                <ListView
+                    android:id="@+id/listView1_4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="0dip"
+                    android:layout_weight="1"
+                    android:scrollbars="none"
+                    android:layout_gravity="left"
+                    />
+                <ListView
+                    android:id="@+id/listView1_5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="0dip"
+                    android:layout_weight="1"
+                    android:scrollbars="none"
+                    android:layout_gravity="left"
+                    />
+  <!--
+                <ListView
+                    android:id="@+id/listView1_6"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="0dip"
+
+                    />
+                <ListView
+                    android:id="@+id/listView1_7"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="0dip"
+
+                    />
+                <ListView
+                    android:id="@+id/listView1_8"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="0dip"
+
+                    />
+                <ListView
+                    android:id="@+id/listView1_9"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="0dip"
+
+                    />
+                <ListView
+                    android:id="@+id/listView1_10"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="0dip"
+
+                    />
+                <ListView
+                    android:id="@+id/listView1_11"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="0dip"
+
+                    />
+                <ListView
+                    android:id="@+id/listView1_12"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="0dip"
+
+                    />
+                <ListView
+                    android:id="@+id/listView1_13"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="0dip"
+
+                    />
+                <ListView
+                    android:id="@+id/listView1_14"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="0dip"
+
+                    />
+                <ListView
+                    android:id="@+id/listView1_15"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="0dip"
+
+                    />
+                <ListView
+                    android:id="@+id/listView1_16"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="0dip"
+                    />
+-->
+            </TableRow>
+        </LinearLayout>
+
+   </ScrollView>
+  <!--  </HorizontalScrollView> -->
+</LinearLayout>

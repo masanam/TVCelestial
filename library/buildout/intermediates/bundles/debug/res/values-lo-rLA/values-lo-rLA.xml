@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ffw_description">"ເລື່ອນ​ໄປ​ໜ້າ"</string>
+    <string name="next_description">"​ເພງ​ຕໍ່​ໄປ"</string>
+    <string name="pause_description">"ຢຸດຊົ່ວຄາວ"</string>
+    <string name="play_description">"ຫຼິ້ນ"</string>
+    <string name="prev_description">"​ເພງ​ກ່ອນ​ໜ້າ"</string>
+    <string name="rew_description">"​ຣີ​​ວາຍກັບ"</string>
+    <string name="stop_description">"ຢຸດ"</string>
+</resources>

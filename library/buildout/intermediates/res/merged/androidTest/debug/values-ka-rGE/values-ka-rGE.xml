@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ffw_description">"წინ გადახვევა"</string>
+    <string name="next_description">"შემდეგი ჩანაწერი"</string>
+    <string name="pause_description">"პაუზა"</string>
+    <string name="play_description">"დაკვრა"</string>
+    <string name="prev_description">"წინა ჩანაწერი"</string>
+    <string name="rew_description">"უკან გადახვევა"</string>
+    <string name="stop_description">"შეწყვეტა"</string>
+</resources>

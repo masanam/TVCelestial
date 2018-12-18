@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ffw_description">"Брзо премотај напред"</string>
+    <string name="next_description">"Следна песна"</string>
+    <string name="pause_description">"Пауза"</string>
+    <string name="play_description">"Пушти"</string>
+    <string name="prev_description">"Претходна песна"</string>
+    <string name="rew_description">"Премотај назад"</string>
+    <string name="stop_description">"Запри"</string>
+</resources>

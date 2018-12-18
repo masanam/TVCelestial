@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ffw_description">"వేగంగా ఫార్వార్డ్ చేయి"</string>
+    <string name="next_description">"తదుపరి ట్రాక్"</string>
+    <string name="pause_description">"పాజ్ చేయి"</string>
+    <string name="play_description">"ప్లే చేయి"</string>
+    <string name="prev_description">"మునుపటి ట్రాక్"</string>
+    <string name="rew_description">"రివైండ్ చేయి"</string>
+    <string name="stop_description">"ఆపివేయి"</string>
+</resources>

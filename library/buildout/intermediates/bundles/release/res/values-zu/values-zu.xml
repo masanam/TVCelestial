@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ffw_description">"Ukudlulisa ngokushesha"</string>
+    <string name="next_description">"Ithrekhi elandelayo"</string>
+    <string name="pause_description">"Misa isikhashana"</string>
+    <string name="play_description">"Dlala"</string>
+    <string name="prev_description">"Ithrekhi yangaphambilini"</string>
+    <string name="rew_description">"Buyisela emumva"</string>
+    <string name="stop_description">"Misa"</string>
+</resources>

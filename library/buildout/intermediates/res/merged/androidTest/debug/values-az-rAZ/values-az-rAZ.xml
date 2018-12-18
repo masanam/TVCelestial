@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ffw_description">"Sürətlə irəli"</string>
+    <string name="next_description">"Növbəti trek"</string>
+    <string name="pause_description">"Pauza"</string>
+    <string name="play_description">"Oyun"</string>
+    <string name="prev_description">"Öncəki trek"</string>
+    <string name="rew_description">"Geri sarıma"</string>
+    <string name="stop_description">"Dayandır"</string>
+</resources>

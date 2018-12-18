@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ffw_description">"تیزی سے فارورڈ کریں"</string>
+    <string name="next_description">"اگلا ٹریک"</string>
+    <string name="pause_description">"موقوف کریں"</string>
+    <string name="play_description">"چلائیں"</string>
+    <string name="prev_description">"پچھلا ٹریک"</string>
+    <string name="rew_description">"ریوائینڈ کریں"</string>
+    <string name="stop_description">"روکیں"</string>
+</resources>

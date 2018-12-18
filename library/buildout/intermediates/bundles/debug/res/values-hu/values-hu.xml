@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ffw_description">"Előretekerés"</string>
+    <string name="next_description">"Következő szám"</string>
+    <string name="pause_description">"Szünet"</string>
+    <string name="play_description">"Lejátszás"</string>
+    <string name="prev_description">"Előző szám"</string>
+    <string name="rew_description">"Visszatekerés"</string>
+    <string name="stop_description">"Leállítás"</string>
+</resources>

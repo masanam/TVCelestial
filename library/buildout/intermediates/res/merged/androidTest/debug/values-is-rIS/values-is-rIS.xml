@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ffw_description">"Spóla áfram"</string>
+    <string name="next_description">"Næsta lag"</string>
+    <string name="pause_description">"Hlé"</string>
+    <string name="play_description">"Spila"</string>
+    <string name="prev_description">"Fyrra lag"</string>
+    <string name="rew_description">"Spóla til baka"</string>
+    <string name="stop_description">"Stöðva"</string>
+</resources>

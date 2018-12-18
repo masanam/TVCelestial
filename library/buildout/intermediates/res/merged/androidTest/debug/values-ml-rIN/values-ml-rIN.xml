@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ffw_description">"വേഗത്തിലുള്ള കൈമാറൽ"</string>
+    <string name="next_description">"അടുത്ത ട്രാക്ക്"</string>
+    <string name="pause_description">"താൽക്കാലികമായി നിർത്തുക"</string>
+    <string name="play_description">"പ്ലേ ചെയ്യുക"</string>
+    <string name="prev_description">"മുമ്പത്തെ ട്രാക്ക്"</string>
+    <string name="rew_description">"റിവൈൻഡുചെയ്യുക"</string>
+    <string name="stop_description">"നിര്‍ത്തുക"</string>
+</resources>

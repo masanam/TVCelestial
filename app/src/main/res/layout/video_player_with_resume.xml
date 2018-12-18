@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:keepScreenOn="true">
+    <com.google.android.exoplayer.AspectRatioFrameLayout
+        android:id="@+id/videoFrame"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center" >
+        <SurfaceView
+            android:id="@+id/surfaceView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone" />
+        <id.co.kynga.app.widget.NoelPlayer
+            android:id="@+id/noelPlayer1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:clickable="true"
+            android:focusable="true" />
+    </com.google.android.exoplayer.AspectRatioFrameLayout>
+    <TextView
+        android:id="@+id/textDebug"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center" />
+    <ProgressBar
+        android:id="@+id/progressBar1"
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center" />
+    <ImageButton
+        android:id="@+id/image_trailer"
+        android:layout_width="@dimen/nomad_button_play_width"
+        android:layout_height="@dimen/nomad_button_play_height"
+        android:layout_gravity="center"
+        android:background="@drawable/border_menu_focus"
+        android:clickable="true"
+        android:src="@drawable/button_trailer_off"
+        android:scaleType="fitXY"
+        android:visibility="gone"/>
+</FrameLayout>

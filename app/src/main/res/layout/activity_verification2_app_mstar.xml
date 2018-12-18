@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical"
+	android:background="@drawable/kyngmob_background"
+	>
+	<id.co.kynga.app.control.RecyclingImageView
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:src="@drawable/kyngmob_background"
+		android:scaleType="fitXY"
+		android:layout_weight="1"/>
+
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:orientation="vertical">
+		<android.support.v7.widget.Toolbar
+			android:layout_width="match_parent"
+			android:layout_height="@dimen/dimenTopBar"
+			android:gravity="center_vertical"
+			android:background="@android:color/transparent"
+			android:visibility="gone">
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:paddingRight="15dp"
+				android:gravity="center_vertical"
+				android:orientation="horizontal">
+				<ImageButton
+					android:id="@+id/btn_back"
+					android:layout_width="@dimen/dimenButtonTopBar"
+					android:layout_height="@dimen/dimenButtonTopBar"
+					android:background="@android:color/transparent"
+					android:src="@drawable/ic_back"
+					android:scaleType="fitXY" />
+			</LinearLayout>
+		</android.support.v7.widget.Toolbar>
+
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:paddingTop="10dp"
+			android:paddingRight="30dp"
+			android:paddingLeft="30dp"
+			android:paddingBottom="30dp"
+			android:gravity="center|top"
+			android:orientation="vertical"
+			android:layout_weight="1"
+			android:weightSum="1">
+
+			<id.co.kynga.app.control.RecyclingImageView
+				android:layout_width="150dp"
+				android:layout_height="80dp"
+				android:src="@drawable/ic_logo_thundr"
+				android:scaleType="fitXY"
+				android:layout_marginTop="20dp"
+				android:layout_marginBottom="30dp"/>
+
+
+
+			<TextView
+				android:id="@+id/lbl_verify"
+				android:layout_width="250dp"
+				android:layout_height="40dp"
+				android:layout_marginTop="10dp"
+				android:layout_marginLeft="10dp"
+				android:layout_marginRight="10dp"
+				android:text="@string/message_verification"
+				style="@style/MStarTextView2"
+				android:gravity="center|center"/>
+
+			<TextView
+				android:text=""
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="12dp"
+				android:textColor="@color/md_white_1000"
+				android:gravity="center|center"
+				android:id="@+id/txt_displaynumber" />
+
+			<me.philio.pinentry.PinEntryView
+				android:id="@+id/txt_token"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="20dp"
+				app:accentType="all"
+				app:digitBackground="@android:drawable/edit_text"
+				app:digitTextColor="@color/colorBase"
+				app:digitElevation="10dp"
+				android:theme="@style/MStarPin"
+				style="@style/MStarPin" />
+
+			<TextView
+				android:layout_width="match_parent"
+				android:layout_height="60dp"
+				android:layout_marginTop="10dp"
+				android:layout_marginLeft="10dp"
+				android:layout_marginRight="10dp"
+				android:gravity="center"
+				android:text="@string/label_verify_new"
+				style="@style/MStarTextView2" />
+
+			<LinearLayout
+				android:layout_width="226dp"
+				android:layout_height="wrap_content"
+				android:orientation="horizontal"
+				android:layout_weight="0.2"
+				android:layout_marginTop="20dp">
+
+
+			<ImageButton
+				android:id="@+id/btn_resend"
+				android:layout_width="@dimen/dimenButtonWidth"
+				android:layout_height="@dimen/dimenButtonHeight"
+				android:layout_marginTop="20dp"
+				android:scaleType="fitXY"
+				android:background="@android:color/transparent"
+				android:layout_weight="1"/>
+
+			<ImageButton
+				android:id="@+id/btn_submit"
+				android:layout_width="99dp"
+				android:layout_height="@dimen/dimenButtonHeight"
+				android:src="@drawable/bg_submit"
+				android:layout_marginTop="20dp"
+				android:background="@android:color/transparent"
+				android:scaleType="fitXY"
+				android:layout_weight="1" />
+			</LinearLayout>
+
+			<TextView
+				android:layout_width="match_parent"
+				android:layout_height="20dp"
+				android:layout_marginTop="10dp"
+				android:layout_marginLeft="10dp"
+				android:layout_marginRight="10dp"
+				android:layout_marginBottom="10dp"
+				android:gravity="center|top"
+				android:text="@string/send_by_email"
+				style="@style/MStarTextView2" />
+
+			<TextView
+				android:text="0"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:gravity="center|center"
+				android:id="@+id/txt_counter" />
+
+			<TextView
+				android:text="Send by Email"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:textStyle="bold"
+				android:textSize="@dimen/text_size_large"
+				android:gravity="center|center"
+				android:id="@+id/txt_sendbyEmail"
+				android:visibility="gone" />
+
+			<TextView
+				android:id="@+id/lbl_error_verify"
+				android:layout_width="match_parent"
+				android:layout_height="60dp"
+				android:layout_marginTop="10dp"
+				android:layout_marginLeft="10dp"
+				android:layout_marginRight="10dp"
+				android:gravity="center"
+				android:text="@string/error_verify"
+				android:textColor="@color/colorRed"
+				android:visibility="gone" />
+
+		</LinearLayout>
+	</LinearLayout>
+</LinearLayout>

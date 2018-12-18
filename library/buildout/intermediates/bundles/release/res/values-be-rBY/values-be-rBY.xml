@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ffw_description">"Перамотка ўперад"</string>
+    <string name="next_description">"Наступны трэк"</string>
+    <string name="pause_description">"Прыпыніць"</string>
+    <string name="play_description">"Прайграць"</string>
+    <string name="prev_description">"Папярэдні трэк"</string>
+    <string name="rew_description">"Перамотка назад"</string>
+    <string name="stop_description">"Спыніць"</string>
+</resources>

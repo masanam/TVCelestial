@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ffw_description">"Vinnig vorentoe"</string>
+    <string name="next_description">"Volgende snit"</string>
+    <string name="pause_description">"Wag"</string>
+    <string name="play_description">"Speel"</string>
+    <string name="prev_description">"Vorige snit"</string>
+    <string name="rew_description">"Spoel terug"</string>
+    <string name="stop_description">"Stop"</string>
+</resources>

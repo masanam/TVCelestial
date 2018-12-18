@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "F:\\ANDROID COBA 17\\ExoPlayer-release-v2\\library\\buildout\\intermediates\\res\\merged\\androidTest\\debug\\layout\\playback_control_view.xml",
+        "source": "F:\\ANDROID COBA 17\\ExoPlayer-release-v2\\library\\buildout\\intermediates\\bundles\\debug\\res\\layout\\playback_control_view.xml"
+    },
+    {
+        "merged": "F:\\ANDROID COBA 17\\ExoPlayer-release-v2\\library\\buildout\\intermediates\\res\\merged\\androidTest\\debug\\layout\\exoplayer_video_view.xml",
+        "source": "F:\\ANDROID COBA 17\\ExoPlayer-release-v2\\library\\buildout\\intermediates\\bundles\\debug\\res\\layout\\exoplayer_video_view.xml"
+    }
+]

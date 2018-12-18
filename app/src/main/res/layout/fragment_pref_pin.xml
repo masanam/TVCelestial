@@ -1,0 +1,170 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context="id.co.kynga.app.ui.fragment.PrefPinFragment">
+
+    <TextView
+        android:id="@+id/title_pin_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="@string/confirm_pin"
+        android:textSize="@dimen/text_size_large"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp">
+
+        <ImageView
+            android:id="@+id/dot_pin_1"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/dot_pin_off"/>
+
+        <ImageView
+            android:id="@+id/dot_pin_2"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/dot_pin_off"/>
+
+        <ImageView
+            android:id="@+id/dot_pin_3"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/dot_pin_off"/>
+
+        <ImageView
+            android:id="@+id/dot_pin_4"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/dot_pin_off"/>
+
+    </LinearLayout>
+
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:columnCount="3"
+        android:orientation="horizontal"
+        android:rowCount="4">
+
+        <Button
+            android:id="@+id/btn_pin_1"
+            android:layout_width="@dimen/pref_pin_button_width"
+            android:layout_height="@dimen/pref_pin_button_height"
+            android:layout_column="0"
+            android:layout_row="0"
+            android:background="@drawable/num_1"/>
+
+        <Button
+            android:id="@+id/btn_pin_2"
+            android:layout_width="@dimen/pref_pin_button_width"
+            android:layout_height="@dimen/pref_pin_button_height"
+            android:layout_column="1"
+            android:layout_row="0"
+            android:background="@drawable/num_2"/>
+
+        <Button
+            android:id="@+id/btn_pin_3"
+            android:layout_width="@dimen/pref_pin_button_width"
+            android:layout_height="@dimen/pref_pin_button_height"
+            android:layout_column="2"
+            android:layout_row="0"
+            android:background="@drawable/num_3"/>
+
+        <Button
+            android:id="@+id/btn_pin_4"
+            android:layout_width="@dimen/pref_pin_button_width"
+            android:layout_height="@dimen/pref_pin_button_height"
+            android:layout_column="0"
+            android:layout_row="1"
+            android:background="@drawable/num_4"/>
+
+        <Button
+            android:id="@+id/btn_pin_5"
+            android:layout_width="@dimen/pref_pin_button_width"
+            android:layout_height="@dimen/pref_pin_button_height"
+            android:layout_column="1"
+            android:layout_row="1"
+            android:background="@drawable/num_5"/>
+
+        <Button
+            android:id="@+id/btn_pin_6"
+            android:layout_width="@dimen/pref_pin_button_width"
+            android:layout_height="@dimen/pref_pin_button_height"
+            android:layout_column="2"
+            android:layout_row="1"
+            android:background="@drawable/num_6"/>
+
+        <Button
+            android:id="@+id/btn_pin_7"
+            android:layout_width="@dimen/pref_pin_button_width"
+            android:layout_height="@dimen/pref_pin_button_height"
+            android:layout_column="0"
+            android:layout_row="2"
+            android:background="@drawable/num_7"/>
+
+        <Button
+            android:id="@+id/btn_pin_8"
+            android:layout_width="@dimen/pref_pin_button_width"
+            android:layout_height="@dimen/pref_pin_button_height"
+            android:layout_column="1"
+            android:layout_row="2"
+            android:background="@drawable/num_8"/>
+
+        <Button
+            android:id="@+id/btn_pin_9"
+            android:layout_width="@dimen/pref_pin_button_width"
+            android:layout_height="@dimen/pref_pin_button_height"
+            android:layout_column="2"
+            android:layout_row="2"
+            android:background="@drawable/num_9"/>
+
+        <Button
+            android:id="@+id/btn_pin_back"
+            android:layout_width="@dimen/pref_pin_button_width"
+            android:layout_height="@dimen/pref_pin_button_height"
+            android:layout_column="0"
+            android:layout_row="3"
+            android:background="@drawable/num_back"/>
+
+        <Button
+            android:id="@+id/btn_pin_0"
+            android:layout_width="@dimen/pref_pin_button_width"
+            android:layout_height="@dimen/pref_pin_button_height"
+            android:layout_column="1"
+            android:layout_row="3"
+            android:background="@drawable/num_0"/>
+
+        <Button
+            android:id="@+id/btn_pin_next"
+            android:layout_width="@dimen/pref_pin_button_width"
+            android:layout_height="@dimen/pref_pin_button_height"
+            android:layout_column="2"
+            android:layout_row="3"
+            android:background="@drawable/num_next"/>
+
+    </GridLayout>
+
+</LinearLayout>

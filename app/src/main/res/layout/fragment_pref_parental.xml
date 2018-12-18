@@ -1,0 +1,73 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="id.co.kynga.app.ui.fragment.PrefParentalFragment">
+
+    <Button
+        android:id="@+id/b_create"
+        android:layout_width="@dimen/pref_button_width"
+        android:layout_height="@dimen/pref_button_height"
+        android:layout_gravity="top|end"
+        android:background="@drawable/btn_create"/>
+
+    <Button
+        android:id="@+id/b_submit"
+        android:layout_width="@dimen/pref_button_width"
+        android:layout_height="@dimen/pref_button_height"
+        android:layout_gravity="bottom|end"
+        android:background="@drawable/btn_submit"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/title_parental_check"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="16dp"
+            android:text="@string/parental_pin_status"
+            android:textSize="@dimen/pref_parental_text"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginStart="10dp"
+            android:text="@string/locked_content"
+            android:textSize="@dimen/pref_parental_text"/>
+
+        <CheckBox
+            android:id="@+id/check_rate_su"
+            style="@style/CheckboxRate"
+            android:layout_height="wrap_content"
+            android:text="@string/rate_su"/>
+
+        <CheckBox
+            android:id="@+id/check_rate_r"
+            style="@style/CheckboxRate"
+            android:layout_height="wrap_content"
+            android:text="@string/rate_r"/>
+
+        <CheckBox
+            android:id="@+id/check_rate_bo"
+            style="@style/CheckboxRate"
+            android:layout_height="wrap_content"
+            android:text="@string/rate_bo"/>
+
+        <CheckBox
+            android:id="@+id/check_rate_d"
+            style="@style/CheckboxRate"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="@string/rate_d"/>
+
+    </LinearLayout>
+
+</FrameLayout>

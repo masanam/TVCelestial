@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ffw_description">"වේගයෙන් ඉදිරියට යන"</string>
+    <string name="next_description">"ඊළඟ ගීතය"</string>
+    <string name="pause_description">"විරාමය"</string>
+    <string name="play_description">"ධාවනය කරන්න"</string>
+    <string name="prev_description">"පෙර ගීතය"</string>
+    <string name="rew_description">"නැවත ඔතන්න"</string>
+    <string name="stop_description">"නතර කරන්න"</string>
+</resources>

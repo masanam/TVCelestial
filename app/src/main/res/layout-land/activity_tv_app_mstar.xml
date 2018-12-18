@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:layout_gravity="center"
+	android:focusable="true"
+	android:addStatesFromChildren="true">
+	<com.google.android.exoplayer.AspectRatioFrameLayout
+		android:id="@+id/lay_video"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:layout_gravity="center">
+		<SurfaceView
+			android:id="@+id/vw_surface"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent" />
+		<View
+			android:id="@+id/vw_shutter"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:background="@android:color/black"
+			android:visibility="gone"/>
+		<TextView
+			android:id="@+id/lbl_message"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:padding="5dp"
+			android:gravity="left|bottom"
+			style="@style/MStarEditText1"
+			android:visibility="gone"/>
+		<ImageButton
+			android:id="@+id/btn_portrait"
+			android:layout_width="@dimen/dimenButtonTopBar"
+			android:layout_height="@dimen/dimenButtonTopBar"
+			android:background="@android:color/transparent"
+			android:src="@drawable/button_fullscreen_new"
+			android:scaleType="fitXY"
+			android:layout_gravity="bottom|right"
+			android:onClick="portrait"/>
+	</com.google.android.exoplayer.AspectRatioFrameLayout>
+	<TextView
+		android:id="@+id/lbl_title"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:padding="5dp"
+		android:gravity="right"
+		style="@style/MStarTextView2" />
+</FrameLayout>

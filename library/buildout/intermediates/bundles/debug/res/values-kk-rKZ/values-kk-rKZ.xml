@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ffw_description">"Жылдам алға айналдыру"</string>
+    <string name="next_description">"Келесі трек"</string>
+    <string name="pause_description">"Кідірту"</string>
+    <string name="play_description">"Ойнату"</string>
+    <string name="prev_description">"Алдыңғы трек"</string>
+    <string name="rew_description">"Кері айналдыру"</string>
+    <string name="stop_description">"Тоқтату"</string>
+</resources>

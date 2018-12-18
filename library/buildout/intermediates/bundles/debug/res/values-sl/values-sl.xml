@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ffw_description">"Previj naprej"</string>
+    <string name="next_description">"Naslednja skladba"</string>
+    <string name="pause_description">"Zaustavi"</string>
+    <string name="play_description">"Predvajaj"</string>
+    <string name="prev_description">"Prejšnja skladba"</string>
+    <string name="rew_description">"Previj nazaj"</string>
+    <string name="stop_description">"Ustavi"</string>
+</resources>

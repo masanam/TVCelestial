@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string-array name="menu">
+		<item>@string/menu_home</item>
+		<item>@string/menu_profile</item>
+		<item>@string/menu_settings</item><!--
+		<item>@string/menu_wallet</item>
+		<item>@string/menu_subscription</item>-->
+		<item>@string/menu_logout</item>
+	</string-array>
+	<string-array name="menu_settings">
+		<item>@string/menu_language</item>
+		<item>@string/menu_faq</item>
+		<item>@string/menu_usage_policy</item>
+		<item>@string/menu_toc</item>
+		<item>@string/menu_parental</item>
+	</string-array>
+	<string-array name="menu_wallet">
+		<item></item>
+		<item>@string/menu_balance</item>
+		<item>@string/menu_topup</item>
+		<item>@string/menu_payment</item>
+		<item>@string/menu_payment2</item>
+	</string-array>
+	<string-array name="menu_subscription">
+		<item></item>
+		<item>@string/menu_subscription_buy</item>
+		<item>@string/menu_subscription_status</item>
+	</string-array>
+	<string-array name="menu_language">
+		<item>@string/menu_language_en</item>
+		<item>@string/menu_language_id</item>
+	</string-array>
+</resources>

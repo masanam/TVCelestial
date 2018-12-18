@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ffw_description">"Mara laju"</string>
+    <string name="next_description">"Lagu seterusnya"</string>
+    <string name="pause_description">"Jeda"</string>
+    <string name="play_description">"Main"</string>
+    <string name="prev_description">"Lagu sebelumnya"</string>
+    <string name="rew_description">"Gulung semula"</string>
+    <string name="stop_description">"Berhenti"</string>
+</resources>

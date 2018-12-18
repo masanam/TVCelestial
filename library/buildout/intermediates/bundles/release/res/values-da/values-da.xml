@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ffw_description">"Spol frem"</string>
+    <string name="next_description">"Næste nummer"</string>
+    <string name="pause_description">"Pause"</string>
+    <string name="play_description">"Afspil"</string>
+    <string name="prev_description">"Forrige nummer"</string>
+    <string name="rew_description">"Spol tilbage"</string>
+    <string name="stop_description">"Stop"</string>
+</resources>

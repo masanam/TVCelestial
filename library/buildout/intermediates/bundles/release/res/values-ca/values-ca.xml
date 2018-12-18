@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ffw_description">"Avança ràpidament"</string>
+    <string name="next_description">"Ruta següent"</string>
+    <string name="pause_description">"Posa en pausa"</string>
+    <string name="play_description">"Reprodueix"</string>
+    <string name="prev_description">"Ruta anterior"</string>
+    <string name="rew_description">"Rebobina"</string>
+    <string name="stop_description">"Atura"</string>
+</resources>

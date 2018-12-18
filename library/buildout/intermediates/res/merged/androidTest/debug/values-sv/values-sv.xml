@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ffw_description">"Snabbspola framåt"</string>
+    <string name="next_description">"Nästa spår"</string>
+    <string name="pause_description">"Pausa"</string>
+    <string name="play_description">"Spela upp"</string>
+    <string name="prev_description">"Föregående spår"</string>
+    <string name="rew_description">"Spola tillbaka"</string>
+    <string name="stop_description">"Avbryt"</string>
+</resources>

@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="http://schemas.android.com/tools">
+    <string name="app_name">thundr</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="setup_app">For your entertainment pleasure&#8230;please wait</string>
+    <string name="ok">OK</string>
+    <string-array name="gender">
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+    <string name="update_playstore_dialog">Do you want to update?</string>
+    <string name="name">Name</string>
+    <string name="scan_qr_code">Scan QR Code to obtain Serial Number</string>
+    <string name="submit">Submit</string>
+    <string name="thank_you_for_register">Thank you for register</string>
+    <string name="you_will_receive_sms">You will receive an SMS for your Password.You can now enjoy many hours of Live TV and On Demand contents ....</string>
+    <string name="please_check">Please check</string>
+    <string name="your_sms_mobile">Your SMS Mobile for Password</string>
+    <string name="show_password">Show Password</string>
+    <string name="my_account">My Account</string>
+    <string name="mobile_remote">Mobile Remote</string>
+    <string name="topup">Topup</string>
+    <string name="your_active_package">Your Active Package</string>
+    <string name="valid_until">Valid Until</string>
+    <string name="change_email">Change Email</string>
+    <string name="close">Close</string>
+    <string name="address">Address</string>
+    <string name="login_to_your_account">Login to your Account</string>
+    <string name="ejoy_digital_media">To enjoy your personal Digital Media Player with thousands of On Demand contents like movies and TV Series, please download MediaStar on Google Play or Apple Store</string>
+    <string name="subscribe_first">Please  subscribe first to continue watching this content.Select your desired package and click subscribe.</string>
+    <string name="available_package">Available Packages</string>
+    <string name="cancel">Cancel</string>
+    <string name="buy_now">Buy Now</string>
+    <string name="month">month</string>
+    <string name="thank_you">Thank you</string>
+    <string name="you_have_purchased">You have purchased</string>
+    <string name="please_enter_personal_info">Please enter your personal details and scan the barcode on your Wellcome Card and press Submit.</string>
+    <string name="welcome_screen_text">Enjoy your personal Digital Media Player with thousands of On Demand contents</string>
+    <string name="request_token_error">Request token Error</string>
+    <string name="are_you_sure">Are you sure?</string>
+    <string name="cancel_buy">Cancel</string>
+    <string name="reset_password">Request Password</string>
+    <string name="software_update">Software Update</string>
+    <string name="new_version">New Version of thundr App is available, Click OK to Install</string>
+    <string name="is_available">is available</string>
+    <string name="click_ok_to_install">Click OK to Install</string>
+    <string name="qr_code">QR Code</string>
+    <string name="exit_application">Exit Application?</string>
+    <string name="exit">Exit</string>
+    <string name="change_profile">Change Profile</string>
+    <string name='drm_error_not_supported'>drm not supported</string>
+    <string name='drm_error_unsupported_scheme'>drm unsupported</string>
+    <string name='drm_error_unknown'>drm unknown</string>
+    <string name="error_progressif_playback">Progressive playback error</string>
+    <string name="error_unknown">Unknown playback error</string>
+    <string name="login">Login</string>
+    <string name="login_to_account">Login to your account</string>
+    <string name="subscribe">Subscribe</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="password">Password</string>
+    <string name="user_id">User ID</string>
+    <string name="balance">Balance</string>
+    <string name="basic">Basic</string>
+    <string name="premium">Premium</string>
+    <string name="packages">Packages</string>
+    <string name="profile">Profile</string>
+    <string name="no_connection">No Internet Connection</string>
+    <string name="no_data">Something went wrong during retrieving data</string>
+    <string name="please_try_again_later">Please try again later</string>
+    <string name="connection_msg">Please try again or check your internet connection</string>
+    <string name="next">NEXT</string>
+    <string name="prev">PREV</string>
+    <string name="purchase">Purchase</string>
+    <string name="preference">Preferences</string>
+    <string name="your_balance">Your Balance</string>
+    <string name="select_package">Select Package</string>
+    <string name="basic_p">Basic (Rp.99.000)</string>
+    <string name="premium_p">Premium TV (Rp 30.000)</string>
+    <string name="how_to_register">How to register?</string>
+    <string name="genflix_p">Genflix (Rp.30.000)</string>
+    <string name="phone_should_not_empty">Phone Number should not be empty</string>
+    <string name="pass_should_not_empty">Password should not be empty</string>
+    <string name="phone_pass_should_not_empty">Phone number and Password should not be empty</string>
+    <string name="register">Register</string>
+    <string name="dont_have_account">Don\'t have account?</string>
+    <string name="use_your_phone_number">Please use your active phone number to register.</string>
+    <string name="use_password_to_login">Password will be delivered via SMS.</string>
+    <string name="complete_registration">Complete your registration by transfer to our bank account to activate your package.</string>
+    <string name="email">Email</string>
+    <string name="duration">Duration</string>
+    <string name="season">Season</string>
+    <string name="episode">Episode</string>
+    <string name="pemeran">Cast</string>
+    <string name="genre">Genre</string>
+    <string name="director">Director</string>
+    <string name="year">Year</string>
+    <string name="fourk_warn">This 4K channels require at least 5 mbps of internet connection\'s  speed and supported 4K device for better experience</string>
+    <string name="change_password">Change Password</string>
+    <string name="forgot_password">Forgot Password</string>
+    <string name="old_password">Old Password</string>
+    <string name="new_password">New Password</string>
+    <string name="session_expired">Oops! You have exceeded the number of simultaneous screens.</string>
+    <string name="expired_notification">May be you\'ve tried to login from another device or check your subscription period.You must login back to continue</string>
+    <string name="please_login_back">Please click Login again to access our content.</string>
+    <string name="one">1</string>
+    <string name="fourk_warn_1">For absolute 4K experience,make sure you have at least 5 Mbps internet connection and a supported 4k device like TV and gadget.</string>
+    <string name="player_error">Apologize, channel is currently offline</string>
+    <string name="play_all">Play All</string>
+    <string name="loading">Loading</string>
+    <string name="search">Search</string>
+    <string name="logout">Logout</string>
+    <string name="username">Username</string>
+    <string name="error_player">Player error %s</string>
+    <string name="signin_you_in">Signing you in &#8230;please wait</string>
+    <string name="initialize_youtube">Initializing Youtube &#8230;please wait</string>
+    <string name="retry">Retry</string>
+    <string name="wifi">Wireless</string>
+    <string name="display">Display</string>
+    <string name="sound">Sound</string>
+    <string name="language">Language</string>
+    <string name="browser">Browser</string>
+    <string name="file">File</string>
+    <string name="new_email_should_not_empty">Email should not be empty</string>
+    <string name="new_address_should_not_empty">Address should not be empty</string>
+    <string name="please_topup_via_mobile">Please topup via our mobile application</string>
+    <string name="setting">Settings</string>
+    <string name="package_name">Package Name</string>
+    <string name="premium_package">Premium Package</string>
+    <string name="button_check">Check</string>
+
+    <string name="restart_resume">Do you want to Restart or Resume?</string>
+    <string name="please_choose">Please choose Restart or Resume</string>
+    <string name="restart">Restart</string>
+    <string name="resume">Resume</string>
+
+    //From MSTAR
+
+    <!-- MENU -->
+    <string name="menu_home">Home</string>
+    <string name="menu_profile">Profile</string>
+    <string name="menu_settings">Settings</string>
+    <string name="menu_wallet">Wallet</string>
+    <string name="menu_logout">Logout</string>
+    <string name="menu_language">Language</string>
+    <string name="menu_language_id">Bahasa Indonesia</string>
+    <string name="menu_language_en">English</string>
+    <string name="menu_faq">FAQ</string>
+    <string name="menu_usage_policy">Usage Policy</string>
+    <string name="menu_toc">Terms of Use</string>
+    <string name="menu_parental">Parental Control</string>
+    <string name="menu_balance">Balance</string>
+    <string name="menu_topup">Top Up</string>
+    <string name="menu_payment">Credit Card Payment</string>
+    <string name="menu_payment2">Bank Transfer Payment</string>
+    <string name="menu_back">Back</string>
+
+    <!-- HINT -->
+    <string name="hint_phone_number"> Phone Number</string>
+    <string name="hint_cc_number">Your Credit Card Number</string>
+    <string name="hint_exp_month_cc">Expiry Month e.g. 01</string>
+    <string name="hint_exp_year_cc">Expiry Year e.g. 2020</string>
+    <string name="hint_cvv_cc">CVV / CVC</string>
+    <string name="hint_amount">Amount / Rp.</string>
+    <string name="hint_fullname">Fullname</string>
+    <string name="hint_full_name">Full Name</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_e_mail">Email</string>
+    <string name="agreement">I have agreed to Thundr\'s Terms of Use.</string>
+
+    <!-- TITLE -->
+    <string name="title_warning">Warning</string>
+    <string name="title_profile">Profile</string>
+    <string name="title_balance">Balance</string>
+    <string name="title_topup">Top up</string>
+    <string name="title_payment">Payment</string>
+    <string name="title_faq">FAQ</string>
+    <string name="title_parental">Parental</string>
+    <string name="title_policy">Usage Policy</string>
+    <string name="title_tc">Terms of Use</string>
+
+    <!-- MESSAGE -->
+    <string name="message_loading">Loading, Please wait&#8230;</string>
+    <string name="message_exit">Press back again to exit</string>
+    <string name="message_exit_confirm">Are you sure want to exit?</string>
+    <string name="message_coming_soon">Coming soon</string>
+    <string name="message_success">Success</string>
+    <!--
+	<string name="message_player_preparing">Preparing&#8230;</string>
+	<string name="message_player_buffering">Buffering&#8230;</string>
+	-->
+    <string name="message_player_preparing">Let the show begin&#8230;</string>
+    <string name="message_player_buffering">Let the show begin&#8230;</string>
+    <string name="message_sms">Hello, Please verify your phone number with this number :</string>
+    <string name="message_verification">Please wait while we verified your phone number. </string>
+    <string name="enter_phone_number">Enter Your Phone Number </string>
+    <string name="register_new_account">Register New Account </string>
+    <string name="subscription_dialog">Do you want to subscribe this video?</string>
+    <string name="no_subscribe">No</string>
+
+    <!-- BUTTON -->
+    <string name="button_close">Close</string>
+    <string name="button_ok">Ok</string>
+    <string name="button_yes">Yes</string>
+    <string name="button_no">No</string>
+    <string name="button_topup">Topup Data</string>
+
+    <!-- LABEL -->
+    <string name="label_phone_number">Phone Number</string>
+    <string name="label_request">Enable all requirements</string>
+    <string name="label_amount_sign">Rp. </string>
+    <string name="label_verify">Please enter the verification code we sent to your phone number</string>
+    <string name="label_verify2">Enter the code in case we failed to detect the sms automatically</string>
+    <string name="label_verify_new">Enter the code in case we failed to detect the sms automatically</string>
+    <string name="send_by_email">Send by Email</string>
+    <string name="label_trailer">Trailer</string>
+    <string name="label_register_va">Get My Virtual Account</string>
+    <string name="label_va_number">Nomor Virtual Account :</string>
+    <string name="label_va_bank">Bank : Permata</string>
+
+    <!-- ERROR -->
+    <string name="error_request_failed">Request failed,\nPlease check your internet connection</string>
+    <string name="error_no_data">No Data</string>
+    <string name="error_permission">Please enable all requires before continue</string>
+    <string name="error_phone_number_blank">Phone Number must be filled</string>
+    <string name="error_cc_number_blank">Credit Card Number must be filled</string>
+    <string name="error_cc_exp_month_blank">Expiry Month must be filled</string>
+    <string name="error_cc_exp_year_blank">Expiry Year must be filled</string>
+    <string name="error_cc_cvv_blank">CVV / CVC must be filled</string>
+    <string name="error_cc_amount_blank">Amount must be filled</string>
+    <string name="error_fullname_blank">Fullname must be filled</string>
+    <string name="error_email">Email must be valid</string>
+    <string name="error_gender">Gender must be chosen</string>
+    <string name="error_drm_not_supported">DRM Not Supported</string>
+    <string name="error_drm_unsupported_scheme">DRM Unsupported Scheme</string>
+    <string name="error_drm_unknown">DRM Unknown</string>
+    <string name="error_querying_decoders">Error when querying decoders</string>
+    <string name="error_no_secure_decoder">No secure decoder : %s</string>
+    <string name="error_no_decoder">No decoder : %s</string>
+    <string name="error_instantiating_decoder">Error when instantiating decoder : %s</string>
+    <string name="error_verify">You have entered an invalid code\nPlease check</string>
+    <string name="error_credit_insufficient">Your credit insufficient, please topup first to get purchase</string>
+
+    <!-- Spinner -->
+    <string name="gender_prompt">Gender</string>
+    <string-array name="gender_arrays">
+        <item></item>
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+
+    <!--KYNGA APP-->
+    <string name="active_package">Active Package</string>
+    <string name="non_active_package">Non Active Package</string>
+    <string name="create_parental_control_pin">Create Parental Control PIN</string>
+    <string name="parental_pin_status">Parental Control PIN: not created</string>
+    <string name="locked_content">Locked Content</string>
+    <string name="rate_su">SU</string>
+    <string name="rate_r">R</string>
+    <string name="rate_bo">BO</string>
+    <string name="rate_d">D</string>
+    <string name="create">Create</string>
+    <string name="confirm_pin">Confirm Your PIN</string>
+    <string name="vtutor_wallet">Video Tutorial Top Up Wallet</string>
+    <string name="vtutor_cc">Video Tutorial Credit Card</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="message_sms2">Hello, welcome to thundr, experience Great TV here by simply using the following password : </string>
+    <string name="message_sms3">Hello, welcome to thundr, here is your password for log in :</string>
+
+    <string name="update">Update</string>
+    <string name="no_update">No</string>
+
+    <string name="menu_subscription">Blockbuster Subscription</string>
+    <string name="menu_subscription_buy">Buy Blockbuster Subscription</string>
+    <string name="menu_subscription_status">Blockbuster Subscription Status</string>
+
+    <!-- implement exoplayer version 2 -->
+
+    <!-- The user visible name of the application. [CHAR LIMIT=20] -->
+    <string name="application_name">ExoPlayer2 Demo</string>
+
+    <string name="video">Video</string>
+
+    <string name="audio">Audio</string>
+
+    <string name="text">Text</string>
+
+    <string name="selection_disabled">Disabled</string>
+
+    <string name="selection_default">Default</string>
+
+    <string name="selection_default_none">Default (none)</string>
+
+    <string name="unexpected_intent_action">Unexpected intent action: <xliff:g id="action">%1$s</xliff:g></string>
+
+    <string name="enable_random_adaptation">Enable random adaptation</string>
+
+    <string name="error_unsupported_video">Media includes video tracks, but none are playable by this device</string>
+
+    <string name="error_unsupported_audio">Media includes audio tracks, but none are playable by this device</string>
+
+    <string name="storage_permission_denied">Permission to access storage was denied</string>
+
+    <string name="sample_list_load_error">One or more sample lists failed to load</string>
+
+    <string name="vuforia_key">AVD2PcD/////AAAAGX6m6VQLsk7DioETF42EidUkjmYmJeTpYUMahmaJylTNFMMXiyW/z3BZNkKRlq3d+tQkauxEjzA3801PSA9u8yXSKjhe1dKT8t76BIf4QZ6qSuQtvxuwU+77QvT0u/hX//J0ivL2zR7VX7WM+Kv5a5JUOIw4LqZTt2fNpeLOSbN+dvWSkUyydD6J3wj3JfQf5C21xqjmLS2syTOPqIo1zBU6N9sF0lHrQIICt/1rYYveE/eIekF3s3dmJfBE/z79k3NGP3kBxtY1pbDQP/To+kD+fUD8MszjkYJ2VFrTsWgZqr19nKLcBo+nlc8Fe/wVI9AvsjIYdyn1r+gFFyj3GXiVBT09f6kdcW1jg4SGtLsf</string>
+
+    <string name="server_url">http://ar.mstar.co.id/ar/</string>
+    <string name="server_url_local">http://192.168.1.202/test/</string>
+
+</resources>

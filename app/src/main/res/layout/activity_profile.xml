@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent">
+	<id.co.kynga.app.control.RecyclingImageView
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:src="@drawable/kyngmob_background"
+		android:scaleType="fitXY" />
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:orientation="vertical">
+		<android.support.v7.widget.Toolbar
+			android:layout_width="match_parent"
+			android:layout_height="@dimen/dimenTopBar"
+			android:gravity="center_vertical"
+			android:background="@android:color/transparent">
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:paddingRight="15dp"
+				android:gravity="center_vertical"
+				android:orientation="horizontal">
+				<ImageButton
+					android:id="@+id/btn_back"
+					android:layout_width="@dimen/dimenButtonTopBar"
+					android:layout_height="@dimen/dimenButtonTopBar"
+					android:background="@android:color/transparent"
+					android:src="@drawable/ic_back"
+					android:scaleType="fitXY" />
+				<TextView
+					android:layout_width="0dp"
+					android:layout_height="match_parent"
+					android:layout_weight="1"
+					android:gravity="right"
+					android:text="@string/title_profile"
+					style="@style/MStarTextView2"
+					android:visibility="gone"/>
+			</LinearLayout>
+		</android.support.v7.widget.Toolbar>
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:padding="30dp"
+			android:gravity="center|top"
+			android:orientation="vertical">
+			<id.co.kynga.app.control.RecyclingImageView
+				android:layout_width="200dp"
+				android:layout_height="80dp"
+				android:src="@drawable/ic_logo_thundr_big"
+				android:scaleType="fitXY"
+				android:layout_marginBottom="40dp"/>
+			<TextView
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:text="User Name"
+				android:layout_marginTop="20dp"
+				style="@style/MStarTextView1" />
+			<TextView
+				android:id="@+id/lbl_fullname"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginLeft="10dp"
+				style="@style/MStarTextView2" />
+			<TextView
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:text="@string/label_phone_number"
+				android:layout_marginTop="15dp"
+				style="@style/MStarTextView1" />
+			<TextView
+				android:id="@+id/lbl_phone_number"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginLeft="10dp"
+				style="@style/MStarTextView2" />
+			<TextView
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:text="E-mail"
+				android:layout_marginTop="15dp"
+				style="@style/MStarTextView1" />
+			<TextView
+				android:id="@+id/lbl_email"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginLeft="10dp"
+				style="@style/MStarTextView2" />
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:gravity="center|top"
+				android:orientation="horizontal"
+				android:visibility="gone">
+				<TextView
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:text="Total Data Usage"
+					android:layout_marginTop="15dp"
+					style="@style/MStarTextView2"
+					android:layout_weight="1"/>
+				<TextView
+					android:id="@+id/lbl_total_data_usage"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:text="data usage value"
+					android:layout_marginTop="15dp"
+					style="@style/MStarTextView2"
+					android:layout_weight="1"/>
+			</LinearLayout>
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:gravity="center|top"
+				android:orientation="horizontal">
+				<TextView
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:text="Data Usage"
+					android:layout_marginTop="15dp"
+					style="@style/MStarTextView2"
+					android:layout_weight="1"/>
+				<TextView
+					android:id="@+id/lbl_mstar_data_usage"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:text="data usage value"
+					android:layout_marginTop="15dp"
+					style="@style/MStarTextView2"
+					android:layout_weight="1"/>
+			</LinearLayout>
+			<TextView
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:text="E-mail : admin@thinkingtub.com"
+				android:textSize="@dimen/text_size_medium"
+				android:layout_marginTop="55dp"
+				android:layout_marginLeft="10dp"
+				style="@style/MStarTextView1"
+				android:textAlignment="center"/>
+		</LinearLayout>
+	</LinearLayout>
+</RelativeLayout>
